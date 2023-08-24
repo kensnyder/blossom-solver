@@ -1,0 +1,15 @@
+{
+  "name": "blossom-solver",
+  "private": true,
+  "description": "Solve Blossom puzzles",
+  "sideEffects": false,
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "prettier-plugin-organize-imports": "^3.2.3",
+    "prettier": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
