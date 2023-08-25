@@ -61,9 +61,9 @@ function compile({ inputFile, outputFile, filter }) {
   );
   console.log(`${sevenOrFewer.length} had 7 or fewer distinct letters`);
 
-  const tenOrMore = sevenOrFewer.filter(word => word.length >= 10);
-  fs.writeFileSync('data/10-or-more.txt', tenOrMore.join('\n'), 'utf8');
-  console.log(`${tenOrMore.length} were at least 10 letters long`);
+  // const tenOrMore = sevenOrFewer.filter(word => word.length >= 10);
+  // fs.writeFileSync('data/10-or-more.txt', tenOrMore.join('\n'), 'utf8');
+  // console.log(`${tenOrMore.length} were at least 10 letters long`);
 
   // run passed filter
   const filtered = filter(longEnough);
@@ -107,8 +107,8 @@ function compile({ inputFile, outputFile, filter }) {
     sortable.push({ letter, count });
   }
   sortable.sort((a, b) => a.count - b.count);
-  console.log('letter frequencies:');
-  console.log(sortable);
+  // console.log('letter frequencies:');
+  // console.log(sortable);
 
   const likely = sortable.map(s => s.letter).join('');
   console.log(`Letters in descending frequency order: ${likely}`);

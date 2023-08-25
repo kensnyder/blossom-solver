@@ -34,14 +34,14 @@ async function main() {
       break;
     }
     let waitFor = rand(2000, 4000);
-    if (i % 10000 === 0) {
-      waitFor = 10 * 60 * 1000;
+    if (i % 1000 === 0) {
+      waitFor = 3 * 60 * 1000;
     } else if (i % 50 === 0) {
       waitFor = 30 * 1000;
     }
     await new Promise(resolve => setTimeout(resolve, waitFor));
   }
-  console.log('DONE');
+  console.log(`DONE at ${new Date()}`);
   process.exit(0);
 }
 
