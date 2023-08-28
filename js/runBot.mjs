@@ -45,11 +45,14 @@ export default function runBot({
     centerLetter: inputCenterLetter,
     totalPossibleWords: matched.length,
     totalPossiblePangrams: expanded.filter(w => w.pangram).length,
-    maxScore: 0,
+    totalScore: 0,
     pangramCount: 0,
     averageScore: 0,
     elapsed: 0,
-    words: [],
+    wordsUsed: [],
+    allWords: expanded.map(w => w.word),
+    scoresByPetal: [],
+    wordCount: 0,
   };
   const used = [];
   for (const letter of letters) {
@@ -61,6 +64,13 @@ export default function runBot({
       .filter(data => data[letter])
       .sort((a, b) => b[letter] - a[letter]);
     let foundTop = 0;
+    best.scoresByPetal.push({
+      petal: letter,
+      words: sorted.map(item => ({
+        word: item.word,
+        score: item[letter],
+      })),
+    });
     for (let i = 0; i < sorted.length; i++) {
       if (used.includes(sorted[i].word)) {
         // skip a word that was already used
@@ -71,14 +81,14 @@ export default function runBot({
         continue;
       }
       // collect the word
-      best.words.push({
+      best.wordsUsed.push({
         word: sorted[i].word,
         // length: sorted[i].word.length,
         petal: letter,
         score: sorted[i][letter],
         pangram: sorted[i].pangram,
       });
-      best.maxScore += sorted[i][letter];
+      best.totalScore += sorted[i][letter];
       if (sorted[i].pangram) {
         best.pangramCount++;
       }
@@ -92,8 +102,11 @@ export default function runBot({
     }
   }
 
-  best.averageScore = Math.floor(best.maxScore / best.words.length);
+  best.averageScore = Math.floor(best.totalScore / best.wordsUsed.length);
   best.took = +new Date() - start;
+  best.wordCount = best.wordsUsed.length;
+  // console.log('--------------------  scores by petal ---------------------');
+  // console.log(JSON.stringify(best.scoresByPetal, null, 2));
 
   return best;
 }

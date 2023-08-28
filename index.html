@@ -12,7 +12,58 @@
   </head>
   <body>
     <h1>Blossom Solver</h1>
-    <main>Hello</main>
+    <main>
+      <form id="InputForm">
+        <label>
+          <span>Enter the 6 petal letters</span>
+          <input name="petals" />
+        </label>
+        <label>
+          <span>Enter the center letter</span>
+          <input name="centerLetter" />
+        </label>
+        <button type="submit">Solve</button>
+      </form>
+      <div id="Output" style="display: none">
+        <h2>General stats</h2>
+        <table>
+          <tbody>
+            <tr>
+              <th>Total # Pangrams</th>
+              <td id="Output-totalPossiblePangrams"></td>
+            </tr>
+            <tr>
+              <th>Total # Words</th>
+              <td id="Output-wordCount"></td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>Bot result</h2>
+        <table>
+          <tbody>
+            <tr>
+              <th>Bot Score</th>
+              <td id="Output-totalScore"></td>
+            </tr>
+            <tr>
+              <th>Average Score per Word</th>
+              <td id="Output-averageScore"></td>
+            </tr>
+            <tr id="Output-botWords"></tr>
+          </tbody>
+        </table>
+        <h2>Top scores by petal</h2>
+        <table>
+          <tbody>
+            <tr>
+              <th colspan="6">Petal letter</th>
+            </tr>
+            <tr id="Output-petalLetters"></tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <script src="./js/domUtils.mjs" type="module"></script>
     <script src="./js/runBot.mjs" type="module"></script>
     <script src="./js/main.mjs" type="module"></script>
   </body>

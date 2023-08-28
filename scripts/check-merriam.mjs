@@ -3,46 +3,80 @@ import fs from 'node:fs';
 main().then(console.log, console.error);
 
 async function main() {
-  const largeWords = fs.readFileSync('data/10-or-more.txt', 'utf8');
+  const start = +new Date();
+  const compiled36k = fs.readFileSync('data/compiled-36k.txt', 'utf8');
+  const destPath = '/Users/ksnyder/sandbox/merriam';
+  const largeWords = fs.readFileSync('data/10-plus-letters.txt', 'utf8');
   const largeWordList = largeWords.trim().split('\n');
   let i = 0;
+  let counts = {
+    is404: 0,
+    in36k: 0,
+    found: 0,
+    alreadyChecked: 0,
+  };
   while (largeWordList.length > 0) {
     i++;
     const idx = String(i).padStart(5, '0');
     const word = largeWordList.splice(rand(0, largeWordList.length - 1), 1);
-    if (fs.existsSync(`/tmp/merriam/${word}.html`)) {
+    if (fs.existsSync(`${destPath}/${word}.html`)) {
       console.log(`${idx} [${word}] ----- Already checked -----`);
+      counts.alreadyChecked++;
+      continue;
+    }
+    if (new RegExp(`^${word}\\d`, 'm').test(compiled36k)) {
+      fs.writeFileSync(`${destPath}/${word}.html`, 'in 36k\n\n', 'utf8');
+      console.log(`${idx} [${word}] ----- Found in 36k -----`);
+      counts.in36k++;
       continue;
     }
     const resp = await fetch(
       `https://www.merriam-webster.com/dictionary/${word}`
     );
     if (resp.ok) {
-      const text = await resp.text();
-      fs.writeFileSync(`/tmp/merriam/${word}.html`, text, 'utf8');
-      console.log(`${idx} [${word}] Wrote /tmp/merriam/${word}.html`);
+      const html = await resp.text();
+      const lines = [];
+      extract(lines, html, /(<h1[^>]*>.+?<\/h1>)/s);
+      extract(lines, html, /(<title[^>]*>.+?<\/title>)/s);
+      extract(lines, html, /(<meta name="description"[^>]+?>)/s);
+      extract(lines, html, /(<link rel="canonical"[^>]+?>)/s);
+      const extracted = lines.join('\n') + '\n\n';
+      fs.writeFileSync(`${destPath}/${word}.html`, extracted, 'utf8');
+      console.log(`${idx} [${word}] Wrote ${destPath}/${word}.html`);
+      counts.found++;
     } else if (resp.status === 404) {
       console.log(`${idx} [${word}] Not found`);
-      fs.writeFileSync(`/tmp/merriam/${word}.html`, '404', 'utf8');
+      fs.writeFileSync(`${destPath}/${word}.html`, '404\n\n', 'utf8');
+      counts.is404++;
     } else {
       console.log(
-        `${idx} [${word}] Error fetching: ${resp.status} ${resp.statusText}`
+        `${idx} [${word}] Fetch error: ${resp.status} ${resp.statusText} **********************************`
       );
       break;
     }
     if (i === 25000) {
       break;
     }
-    let waitFor = rand(2000, 4000);
+    let waitFor = rand(1500, 2500);
     if (i % 1000 === 0) {
-      waitFor = 3 * 60 * 1000;
+      waitFor = 2 * 60 * 1000;
     } else if (i % 50 === 0) {
-      waitFor = 30 * 1000;
+      waitFor = 10 * 1000;
     }
     await new Promise(resolve => setTimeout(resolve, waitFor));
   }
+  const elapsed = Math.ceil((+new Date() - start) / 1000).toLocaleString();
   console.log(`DONE at ${new Date()}`);
+  console.log(`Elapsed: ${elapsed} seconds`);
+  console.log('counts:\n', counts);
   process.exit(0);
+}
+
+function extract(stack, html, regexp) {
+  const match = html.match(regexp);
+  if (match) {
+    stack.push(match[1]);
+  }
 }
 
 function rand(min, max) {

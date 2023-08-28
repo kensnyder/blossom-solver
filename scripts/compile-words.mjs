@@ -23,22 +23,31 @@ const scoreBySize = {
 
 compile({
   inputFile: 'data/full-dictionary.txt',
-  outputFile: 'data/compiled-188k.txt',
+  outputFile: 'data/compiled-level3.txt',
   filter: lines => {
-    const disallowedText = fs.readFileSync('data/not-in-merriam.txt', 'utf8');
-    const disallowedWords = disallowedText.trim().split(/[\r\n]+/);
+    const disallowedWords = [
+      ...loadWords('data/not-in-merriam.txt'),
+      ...loadWords('data/medical-words.txt'),
+      ...loadWords('data/proper-nouns.txt'),
+    ];
+    console.log('# disallowed words:', disallowedWords.length);
     return lines.filter(word => !disallowedWords.includes(word));
   },
 });
 // compile({
 //   inputFile: 'data/wiktionary-100k.txt',
-//   outputFile: 'data/compiled-36k.txt',
+//   outputFile: 'data/compiled-level2.txt',
 //   filter: lines => {
 //     const dictionaryText = fs.readFileSync('data/full-dictionary.txt', 'utf8');
 //     const dictionaryWords = dictionaryText.trim().split(/[\r\n]+/);
 //     return lines.filter(word => dictionaryWords.includes(word));
 //   },
 // });
+
+function loadWords(path) {
+  const text = fs.readFileSync(path, 'utf8');
+  return text.trim().split(/[\r\n]+/);
+}
 
 function compile({ inputFile, outputFile, filter }) {
   const start = +new Date();
@@ -61,18 +70,27 @@ function compile({ inputFile, outputFile, filter }) {
   );
   console.log(`${sevenOrFewer.length} had 7 or fewer distinct letters`);
 
-  // const tenOrMore = sevenOrFewer.filter(word => word.length >= 10);
-  // fs.writeFileSync('data/10-or-more.txt', tenOrMore.join('\n'), 'utf8');
-  // console.log(`${tenOrMore.length} were at least 10 letters long`);
+  const tenOrMore = sevenOrFewer.filter(word => word.length >= 10);
+  fs.writeFileSync('data/10-plus-letters.txt', tenOrMore.join('\n'), 'utf8');
+  console.log(`${tenOrMore.length} were at least 10 letters long`);
+
+  for (let size = 4; size <= 9; size++) {
+    const found = sevenOrFewer.filter(word => word.length === size);
+    fs.writeFileSync(`data/${size}-letters.txt`, found.join('\n'), 'utf8');
+    console.log(`${found.length} were exactly ${size} letters long`);
+  }
 
   // run passed filter
-  const filtered = filter(longEnough);
+  const filtered = filter(sevenOrFewer);
 
   const longest = filtered.reduce(
-    (longest, word) => (word.length > longest ? word.length : longest),
-    0
+    (longest, word) =>
+      word.length > longest.length
+        ? { text: word, length: word.length }
+        : longest,
+    { text: '', length: 0 }
   );
-  console.log(`Longest word is ${longest} letters long`);
+  console.log('Longest word is:', longest);
 
   const scores = filtered.sort().map(scoreWord);
 
@@ -85,7 +103,7 @@ function compile({ inputFile, outputFile, filter }) {
   fs.writeFileSync(outputFile, compiled, 'utf8');
 
   const sizeInMB = (compiled.length / 1024 / 1024).toFixed(2);
-  console.log(`Wrote to ${outputFile}: ${sizeInMB} MB`);
+  console.log(`Wrote ${scores.length} words to ${outputFile}: ${sizeInMB} MB`);
 
   const elapsed = +new Date() - start;
   console.log(`Finished in ${elapsed}ms`);
