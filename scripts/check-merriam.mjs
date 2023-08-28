@@ -6,7 +6,7 @@ async function main() {
   const start = +new Date();
   const compiled36k = fs.readFileSync('data/compiled-36k.txt', 'utf8');
   const destPath = '/Users/ksnyder/sandbox/merriam';
-  const largeWords = fs.readFileSync('data/10-plus-letters.txt', 'utf8');
+  const largeWords = fs.readFileSync('data/9-letters.txt', 'utf8');
   const largeWordList = largeWords.trim().split('\n');
   let i = 0;
   let counts = {

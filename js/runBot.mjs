@@ -50,9 +50,9 @@ export default function runBot({
     averageScore: 0,
     elapsed: 0,
     wordsUsed: [],
-    allWords: expanded.map(w => w.word),
+    allWords: expanded.map(w => ({ word: w.word, pangram: w.pangram })),
     scoresByPetal: [],
-    wordCount: 0,
+    wordCount: expanded.length,
   };
   const used = [];
   for (const letter of letters) {
@@ -69,6 +69,7 @@ export default function runBot({
       words: sorted.map(item => ({
         word: item.word,
         score: item[letter],
+        pangram: item.pangram,
       })),
     });
     for (let i = 0; i < sorted.length; i++) {
@@ -104,7 +105,6 @@ export default function runBot({
 
   best.averageScore = Math.floor(best.totalScore / best.wordsUsed.length);
   best.took = +new Date() - start;
-  best.wordCount = best.wordsUsed.length;
   // console.log('--------------------  scores by petal ---------------------');
   // console.log(JSON.stringify(best.scoresByPetal, null, 2));
 

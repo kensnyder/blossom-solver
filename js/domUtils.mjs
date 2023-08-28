@@ -1,19 +1,13 @@
 export function qs(selector) {
-  return element.querySelector(selector);
+  return document.querySelector(selector);
 }
 
 export function qsa(selector) {
-  return [...element.querySelectorAll(selector)];
+  return [...document.querySelectorAll(selector)];
 }
 
 export function setHtml(selector, html) {
   qs(selector).innerHTML = html;
-}
-
-export function setHtmlByIds(contentById) {
-  for (const [id, html] of Object.entries(contentById)) {
-    document.getElementById(id).innerHTML = html;
-  }
 }
 
 export function show(selector) {
@@ -30,4 +24,8 @@ export function onSubmit(selector, fn) {
 
 export function onClick(selector, fn) {
   qs(selector).addEventListener('click', fn);
+}
+
+export function mapJoin(array, mapper) {
+  return array.map(mapper).join('');
 }

@@ -7,8 +7,14 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./css/main.css" />
     <title>Blossom Solver</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1>Blossom Solver</h1>
@@ -24,44 +30,7 @@
         </label>
         <button type="submit">Solve</button>
       </form>
-      <div id="Output" style="display: none">
-        <h2>General stats</h2>
-        <table>
-          <tbody>
-            <tr>
-              <th>Total # Pangrams</th>
-              <td id="Output-totalPossiblePangrams"></td>
-            </tr>
-            <tr>
-              <th>Total # Words</th>
-              <td id="Output-wordCount"></td>
-            </tr>
-          </tbody>
-        </table>
-        <h2>Bot result</h2>
-        <table>
-          <tbody>
-            <tr>
-              <th>Bot Score</th>
-              <td id="Output-totalScore"></td>
-            </tr>
-            <tr>
-              <th>Average Score per Word</th>
-              <td id="Output-averageScore"></td>
-            </tr>
-            <tr id="Output-botWords"></tr>
-          </tbody>
-        </table>
-        <h2>Top scores by petal</h2>
-        <table>
-          <tbody>
-            <tr>
-              <th colspan="6">Petal letter</th>
-            </tr>
-            <tr id="Output-petalLetters"></tr>
-          </tbody>
-        </table>
-      </div>
+      <div id="Output"></div>
     </main>
     <script src="./js/domUtils.mjs" type="module"></script>
     <script src="./js/runBot.mjs" type="module"></script>

@@ -23,7 +23,8 @@ const scoreBySize = {
 
 compile({
   inputFile: 'data/full-dictionary.txt',
-  outputFile: 'data/compiled-level3.txt',
+  outputFile: 'data/uncompiled-level3.txt',
+  compiledFile: 'data/compiled-level3.txt',
   filter: lines => {
     const disallowedWords = [
       ...loadWords('data/not-in-merriam.txt'),
@@ -34,15 +35,16 @@ compile({
     return lines.filter(word => !disallowedWords.includes(word));
   },
 });
-// compile({
-//   inputFile: 'data/wiktionary-100k.txt',
-//   outputFile: 'data/compiled-level2.txt',
-//   filter: lines => {
-//     const dictionaryText = fs.readFileSync('data/full-dictionary.txt', 'utf8');
-//     const dictionaryWords = dictionaryText.trim().split(/[\r\n]+/);
-//     return lines.filter(word => dictionaryWords.includes(word));
-//   },
-// });
+compile({
+  inputFile: 'data/wiktionary-100k.txt',
+  outputFile: 'data/uncompiled-level2.txt',
+  compiledFile: 'data/compiled-level2.txt',
+  filter: lines => {
+    const dictionaryText = fs.readFileSync('data/full-dictionary.txt', 'utf8');
+    const dictionaryWords = dictionaryText.trim().split(/[\r\n]+/);
+    return lines.filter(word => dictionaryWords.includes(word));
+  },
+});
 
 function loadWords(path) {
   const text = fs.readFileSync(path, 'utf8');
@@ -82,6 +84,7 @@ function compile({ inputFile, outputFile, filter }) {
 
   // run passed filter
   const filtered = filter(sevenOrFewer);
+  fs.writeFileSync(`data/uncompiled-level3.txt`, filtered.join('\n'), 'utf8');
 
   const longest = filtered.reduce(
     (longest, word) =>

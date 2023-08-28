@@ -1,0 +1,23 @@
+body {
+  font-family: Cairo, sans-serif;
+  font-size: 17px;
+}
+.word-plus-score {
+  display: block;
+  margin-bottom: 9px;
+  line-height: 1.1;
+}
+.word-alone {
+  margin-right: 0.3em;
+  line-height: 1.1;
+}
+.word-item .word {
+  display: inline-block;
+  background-color: #d5e3e8;
+  padding: 0 5px 2px 5px;
+  border-radius: 5px;
+}
+.word-item.pangram .word {
+  border: 2px solid white;
+  outline: 2px solid #ffb26f;
+}
