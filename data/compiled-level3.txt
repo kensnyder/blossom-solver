@@ -6173,7 +6173,6 @@ anahita17nhit27a
 anaitis17nts22ai
 anakes11nkes16a
 anaktoron23ktr28ano
-anal7nl12a
 analabos20nlbos30a
 analagous30nlgous40a+
 analav11nlv21a
@@ -6809,7 +6808,6 @@ aniliid17anld27i
 anilin11al16ni
 aniline17ale22ni
 anilines20ales25ni
-anilingus30algus35ni+
 anilinism23alsm28n33i
 anilino17alo22ni
 anilins17als22ni
@@ -7805,7 +7803,6 @@ anurias17nuris22a
 anuric11
 anurous17anros22u
 anury9
-anus7
 anuses11anue16s
 anusim11
 anusvara20nusvr30a
@@ -9787,10 +9784,8 @@ arrythmia30ythmi35ar+
 arsacid17rscid22a
 arsacidan30rscidn40a+
 arsanilic30rsnlc35ai+
-arse7
 arsedine27arsdin32e+
 arsefoot27arseft32o+
-arsehole27arshol32e+
 arsenal17rsenl22a
 arsenals20renl25as
 arsenate20rsnt25ae
@@ -10524,7 +10519,6 @@ assertrix30aetix35sr+
 asserts17aert27s
 assertum27aertum32s+
 asserve17arv22se
-asses9ae19s
 assess11ae26s
 assessable26bl31ae41s
 assessed20ad25e35s
@@ -10547,9 +10541,6 @@ asseverated36vrtd41as46e+
 asseverates29vrt34a39se
 asseverative39rti44asv49e+
 assewer17awr22se
-asshead17hed22as
-asshole17ahole22s
-assholes20ahole30s
 assi7ai12s
 assibilate33blte38asi+
 assidaean23iden28s33a
@@ -13477,7 +13468,6 @@ ballplayer33bpyer38a43l+
 ballproof30baprf35lo+
 ballroom20barm25lo
 ballrooms30barms35lo+
-balls9bas14l
 ballsier27basier32l+
 ballsiest30baiet35ls+
 ballsy11basy16l
@@ -14029,7 +14019,6 @@ bardo9
 bards9
 bardy9
 bare7
-bareback20reck25ba
 barebacked33rckd38bae+
 bareboat20reot25ba
 bareboats30reots35ba+
@@ -14567,7 +14556,6 @@ bast7
 basta9bst14a
 bastaard20bstrd30a
 bastant17bsn22at
-bastard17bstrd22a
 bastarda20bstrd30a
 bastardry30bstdy35ar+
 bastards20btrd25as
@@ -15033,9 +15021,7 @@ beanball20en25bal
 beanballs23ens28bal
 beancod24+
 beaned11band16e
-beaner11banr16e
 beaneries30banris40e+
-beaners17banrs22e
 beanery17banry22e
 beanfeast30bnfst35ea+
 beanfest27banfst32e+
@@ -17082,7 +17068,6 @@ bested11bstd16e
 besteer17bstr27e
 bestench27bstnch32e+
 bester11bstr16e
-bestial24+
 bestialities39bal44est49i+
 bestials27betial32s+
 bestian24+
@@ -18025,7 +18010,6 @@ bimbil11ml16bi
 bimbisara23msr28bia
 bimbo9imo14b
 bimboes17imoes22b
-bimbos11imos16b
 bimeby11imey16b
 bimedial27bmedal32i+
 bimester27bimstr32e+
@@ -18493,13 +18477,10 @@ bitake11
 bitangent30biage35tn+
 bitartrate26bie31ar36t
 bitbrace27itrace32b+
-bitch9
 bitched24+
-bitches24+
 bitchier27btcher32i+
 bitchiest30bches35it+
 bitchily27btchly32i+
-bitching27btchng32i+
 bitchy11
 bite7
 biteable20ital25be
@@ -19146,7 +19127,6 @@ bloodwit27bldwit32o+
 bloodwood23blw28d38o
 bloodworm30bldwrm40o+
 bloodwort30bldwrt40o+
-bloody11bldy16o
 blooey11bley16o
 blooie11blie16o
 bloom9blm14o
@@ -19221,8 +19201,6 @@ blowie11
 blowier24+
 blowing24+
 blowiron27blwirn32o+
-blowjob17lwj22bo
-blowjobs20lwjs25bo
 blowlamp27bowamp32l+
 blowline27bowine32l+
 blown9
@@ -19831,9 +19809,6 @@ bollix11boix16l
 bollixed27boixed32l+
 bollixes27boixes32l+
 bollixing30boxng35li+
-bollock17bck22ol
-bollocks20bcks25ol
-bollox11bx16ol
 bolloxed20bxed25ol
 bolloxes20bxes25ol
 bolloxing30bxing35ol+
@@ -19969,7 +19944,6 @@ bonbons17s22bon
 bonce9
 bond7
 bondable27ondale32b+
-bondage24+
 bondar11
 bonded11bone16d
 bonder11
@@ -20006,7 +19980,6 @@ boneless20bonl25es
 bonelet17bonlt22e
 bonelike27bonlik32e+
 bonellia27boneia32l+
-boner9
 boners11
 bones9
 boneset17bonst22e
@@ -20109,7 +20082,6 @@ bonzer11
 bonzery24+
 bonzes11
 bonzian17bozia22n
-boob12bo
 boobery17ery22bo
 boobialla23i28boal
 boobies17ies22bo
@@ -20119,7 +20091,6 @@ booboisie23se28bi33o
 booboo16b26o
 boobook17k22b32o
 booboos17s22b32o
-boobs9s14bo
 booby9y14bo
 boobyalla23y28boal
 boobyish20yish25bo
@@ -21491,7 +21462,6 @@ breaster20bast25re
 breastfast33bref38ast+
 breastie27brasti32e+
 breastless33bratl38e43s+
-breasts17breat22s
 breath11
 breathable33rthl38bea+
 breathe17brath22e
@@ -22580,7 +22550,6 @@ bugeyes17bugys22e
 bugfish24+
 buggane17buane22g
 bugged11bued16g
-bugger11buer16g
 buggered20burd25ge
 buggeries30buris35ge+
 buggering30buerin40g+
@@ -22792,7 +22761,6 @@ bullrush20brsh25ul
 bullrushes33brhe38uls+
 bulls9bus14l
 bullseye20busy25le
-bullshit27bushit32l+
 bullshits30buhit35ls+
 bullshot27bushot32l+
 bullshots30buhot35ls+
@@ -23406,7 +23374,6 @@ bustlers27butler32s+
 bustles17butle22s
 busto9
 busts9but14s
-busty9
 busulfan27bslfan32u+
 busulfans30blfan35us+
 busuuti17bsti27u
@@ -23456,7 +23423,6 @@ butoxyl24+
 buts7
 butsu9bts14u
 butsudan27btsdan32u+
-butt7bu12t
 buttal11bual16t
 buttals17buals22t
 butte9bue14t
@@ -27261,7 +27227,6 @@ cavy7
 cavyyard20cvrd25ay
 cawed9
 cawing11
-cawk7
 cawker11
 cawky9
 cawl7
@@ -29414,7 +29379,6 @@ chiniks17chnks22i
 chinin11ch16in
 chining17chg22in
 chiniofon23chf28ino
-chink9
 chinkapin30chkap35in+
 chinkara27chinkr32a+
 chinked24+
@@ -31414,7 +31378,6 @@ cliquish27clqush32i+
 cliquism27clqusm32i+
 cliquy11
 clisere17clisr22e
-clit7
 clitch11lith16c
 clite9
 clitella20citea30l
@@ -31430,7 +31393,6 @@ clition17clton22i
 clitoral27citora32l+
 clitoria27cltora32i+
 clitoric20ltor25ci
-clitoris27cltors32i+
 clitter17clier22t
 cliv7
 clival11civa16l
@@ -32097,7 +32059,6 @@ cocin9oin14c
 cocinera27oinera32c+
 cocinero20iner25co
 cocitizen30otzen35ci+
-cock7ok12c
 cockade17okade22c
 cockaded20okae25cd
 cockades27okades32c+
@@ -32141,7 +32102,6 @@ cockeye17oky22ce
 cockeyed20okyd25ce
 cockeyedly33okdl38cey+
 cockeyes20okys25ce
-cockhead27okhead32c+
 cockhorse30khrse35co+
 cockhorses33khre38cos+
 cockie11okie16c
@@ -32175,7 +32135,6 @@ cockneys27okneys32c+
 cockpit17okpit22c
 cockpits27okpits32c+
 cockroach23krah28o33c
-cocks9oks14c
 cockscomb23ksmb28o33c
 cockscombs26kmb31os36c
 cocksfoot23ksft28c33o
@@ -34623,7 +34582,6 @@ coombe11cmbe16o
 coombes17cmbes22o
 coombs11cmbs16o
 coomy9cmy14o
-coon7cn12o
 cooncan17a22con
 cooncans20as25con
 cooner11cner16o
@@ -34635,7 +34593,6 @@ coonily17cnily22o
 cooniness23cie28ons
 coonjine20cjie25on
 coonroot20cnrt35o
-coons9cns14o
 coonskin20cski25on
 coonskins23cki28ons
 coontah17cntah22o
@@ -34682,7 +34639,6 @@ coost9cst14o
 coosuc11su16co
 coot7ct12o
 cootch11th16co
-cooter11cter16o
 cootfoot20cf25t35o
 cooth9cth14o
 coothay17cthay22o
@@ -35131,7 +35087,6 @@ corneum24+
 cornfed24+
 cornfloor23cnfl28r33o
 cornflour30cnflu35or+
-cornhole27crnhle32o+
 cornic11orni16c
 cornice17ornie22c
 corniced27ornied32c+
@@ -36344,7 +36299,6 @@ cransier27cansie32r+
 crantara20cnt25r30a
 crants11
 crany9
-crap7
 crapaud17crpud22a
 crape9
 craped11
@@ -37893,7 +37847,6 @@ cuminol24+
 cumins11
 cuminyl24+
 cumly9
-cummer11cuer16m
 cummers17cuers22m
 cummin11cuin16m
 cummins17cuins22m
@@ -37950,7 +37903,6 @@ cunner11cuer16n
 cunners17cuers22n
 cunni9cui14n
 cunnilinctus39lts44cui49n+
-cunnilingus36clgs41ui46n+
 cunning17cuig27n
 cunninger30cuiger40n+
 cunningly30cuigly40n+
@@ -37958,8 +37910,6 @@ cunningness36cuige41s51n+
 cunnings20cuigs30n
 cunny9cuy14n
 cunonia17cuoia22n
-cunt7
-cunts9
 cunye9
 cunyie11
 cunza9
@@ -39261,8 +39211,6 @@ dammer11daer16m
 dammers17daers22m
 damming17daing22m
 dammish17daish22m
-dammit11dait16m
-damn7
 damnable27dmnble32a+
 damnably27dmnbly32a+
 damnation30dmtio35an+
@@ -39557,7 +39505,6 @@ darkest24+
 darkey11
 darkeys24+
 darkful24+
-darkie11
 darkies24+
 darking24+
 darkish24+
@@ -43141,7 +43088,6 @@ dichter24+
 dicier11dcer16i
 diciest17dcest22i
 dicing11dcng16i
-dick7
 dickcissel33dkel38ics+
 dickens24+
 dickenses30dickn35es+
@@ -43530,7 +43476,6 @@ dikamalli23dkm28ial
 dikast11
 dikdik16dik
 dikdiks17s22dik
-dike7
 diked9ike14d
 dikelet17diklt22e
 diker9
@@ -43572,10 +43517,8 @@ dilating27dlatng32i+
 dilation27dlaton32i+
 dilative27dlatve32i+
 dilator24+
-dildo9ilo14d
 dildoe11iloe16d
 dildoes17iloes22d
-dildos11ilos16d
 dilemi11dlem16i
 dilemite20dlmt25ie
 dilemma17dilea22m
@@ -43806,7 +43749,6 @@ dinitrate30dnrae35it+
 dinitril20dntrl30i
 dinitrile30dntrle40i+
 dinitro17dntro22i
-dink7
 dinka9
 dinked11inke16d
 dinkey11
@@ -43816,7 +43758,6 @@ dinkies17dnkes22i
 dinkiest27dnkest32i+
 dinking17dkg22in
 dinkly11
-dinks9
 dinkum11
 dinky9
 dinman11dima16n
@@ -45458,7 +45399,6 @@ doggie11doie16g
 doggier17doier22g
 doggies17doies22g
 doggiest27doiest32g+
-dogging17doin27g
 doggish17doish22g
 doggle11dole16g
 doggo9d14og
@@ -45688,7 +45628,6 @@ domify11
 domina11
 dominae24+
 dominant27domiat32n+
-domination33dmat38oin+
 domine11
 dominee17domin22e
 domineer27dominr32e+
@@ -46167,7 +46106,6 @@ doucepere30doucpr40e+
 doucet11
 douceur17docer22u
 douceurs27docers32u+
-douche11
 douched17ouche22d
 douches24+
 doucin11
@@ -47929,7 +47867,6 @@ dyingly17dingl22y
 dyingness30dyige35ns+
 dyings11
 dykage11
-dyke7
 dyked9yke14d
 dyker9
 dykereeve23dykrv38e
@@ -49073,7 +49010,6 @@ eisteddfod33istfo38e43d+
 eisteddfods36itfo41es46d+
 either11ithr16e
 ejacula17ejcul22a
-ejaculate30jcult35ea+
 ejaculum27ejaclm32u+
 ejam7
 eject9jct14e
@@ -52592,12 +52528,10 @@ erotema17rotma22e
 eroteme17rotm27e
 erotesis20roti25es
 erotetic20roic25et
-erotic11
 erotica24+
 eroticist30erocs35ti+
 eroticize30rotcz35ei+
 erotics24+
-erotism24+
 erotisms27erotim32s+
 erotize17rotiz22e
 erotized27rotizd32e+
@@ -52779,7 +52713,6 @@ esconson20ec25son
 escopet17scopt22e
 escopeta27scopta32e+
 escopette23scop28t33e
-escort11
 escorted27scortd32e+
 escortee20scort30e
 escorts17ecort22s
@@ -53473,7 +53406,6 @@ eunicidae30uncda35ei+
 eunomia24+
 eunomian27euomia32n+
 eunomy11
-eunuch11ench16u
 eunuchal27enchal32u+
 eunuchise30nchis35eu+
 eunuchize30nchiz35eu+
@@ -55038,9 +54970,7 @@ fager9
 fagged11faed16g
 fagger11faer16g
 faggery17faery22g
-fagging17fain27g
 faggingly30fainly40g+
-faggot11faot16g
 faggoted27faoted32g+
 faggoting30faotin40g+
 faggotry27faotry32g+
@@ -55050,11 +54980,9 @@ faggy9fay14g
 fagin9
 fagine11
 fagins11
-fagot9
 fagoted24+
 fagoter24+
 fagoting27faotin32g+
-fagots11
 fagott11fago16t
 fagotte17fagoe22t
 fagottino30fagin35ot+
@@ -55062,7 +54990,6 @@ fagottist30fagois40t+
 fagotto17fag22ot
 fagottone30fagne35ot+
 fagoty11
-fags7
 fagus9
 faham9fhm14a
 fahlband27fhlbnd32a+
@@ -55412,7 +55339,6 @@ fannies17faies22n
 fanning17faig27n
 fannings20faigs30n
 fannon11fao21n
-fanny9fay14n
 fano7
 fanon9fao14n
 fanons11faos16n
@@ -55617,13 +55543,10 @@ farse9
 farseer17fas22re
 farset11
 farsi9
-fart7
-farted11
 farth9
 farther17fathe22r
 fartherer23fath28e33r
 farthest27farhes32t+
-farting24+
 fartlek24+
 farts9
 fasc7
@@ -56005,7 +55928,6 @@ febrifuge30briug35fe+
 febrile17fbril22e
 febris11
 february27febuay32r+
-fecal9
 fecche11fh16ec
 feceris17fcris22e
 feces9fcs14e
@@ -56013,7 +55935,6 @@ fecial11
 fecials24+
 fecifork27eciork32f+
 fecit9
-feck7
 fecket11fckt16e
 feckful17eckul22f
 feckfully30eckuy35fl+
@@ -56181,10 +56102,8 @@ fellani17feani22l
 fellas11feas16l
 fellata17fet22la
 fellatah20feth25la
-fellate17fat22el
 fellated20fatd25el
 fellatee20fat25l30e
-fellatio27featio32l+
 fellator27feator32l+
 felled11fd16el
 fellen11fn16el
@@ -57027,7 +56946,6 @@ figged11fied16g
 figgery17fiery22g
 figgier17fer22ig
 figgiest20fest25ig
-figging17fn22i27g
 figgle11file16g
 figgum11fium16g
 figgy9fiy14g
@@ -57345,7 +57263,6 @@ finger11
 fingered27fingrd32e+
 fingerer20fing25er
 fingerers30fings35er+
-fingering23fer28ing
 fingerings33fers38ing+
 fingerling33ferl38ing+
 fingers24+
@@ -57666,7 +57583,6 @@ fisticuff23stcu28i33f
 fisticuffs26tcu31is36f
 fistify17sty22fi
 fistiness23ftne28i33s
-fisting17fstng22i
 fistinut20fsnu25it
 fistle11
 fistlike27fstlke32i+
@@ -57902,7 +57818,6 @@ flamelet20famt25le
 flamelike30famik35le+
 flamen11
 flamens24+
-flamer11
 flamers24+
 flames11
 flamfew17lamew22f
@@ -57929,7 +57844,6 @@ flanerie27flanri32e+
 flanes11
 flaneur24+
 flang9
-flange11
 flanged24+
 flangeless33fang38les+
 flanger24+
@@ -60897,7 +60811,6 @@ frottage27froage32t+
 frotted17froed22t
 frotteur20foeu25rt
 frotteurs30foeus35rt+
-frotting27froing32t+
 frottola20frla25ot
 frottole20frle25ot
 frotton17frn22ot
@@ -61040,12 +60953,6 @@ fuchsin24+
 fuchsins27fuchin32s+
 fuci7
 fucinita27fucnta32i+
-fuck7
-fucked11
-fucker11
-fucking24+
-fucks9
-fuckwit24+
 fucoid11
 fucoidin27fucodn32i+
 fucoids24+
@@ -62339,7 +62246,6 @@ gang7an12g
 ganga9n14ga
 gangan16gan
 gangava17nv22g27a
-gangbang20b25an30g
 gangboard30nbord35ga+
 gangdom17andom22g
 gange9ane14g
@@ -65276,8 +65182,6 @@ goddam11goam16d
 goddammed23goae28m33d
 goddamming33oain38gdm+
 goddammit30goait35dm+
-goddamn17goamn22d
-goddamned30goamne40d+
 goddamning33oami38gdn+
 goddamns27goamns32d+
 goddams17goams22d
@@ -65685,7 +65589,6 @@ googols17ls22g27o
 googul11ul16go
 gooier11gier16o
 gooiest17giest22o
-gook7gk12o
 gooks9gks14o
 gooky9gky14o
 gool7gl12o
@@ -66883,7 +66786,6 @@ grindingly33rdly38gin+
 grindings23rds28gin
 grindle24+
 grinds11
-gringo11rino16g
 gringole27rinole32g+
 gringolee30rinol35ge+
 gringos17rinos22g
@@ -67088,7 +66990,6 @@ groovier20gvie25ro
 grooving20rvin25go
 groovy11grvy16o
 groow9grw14o
-grope9
 groped11
 groper11gope16r
 gropers17gopes22r
@@ -67614,7 +67515,6 @@ guides11
 guiding17udn22gi
 guidingly30udnly35gi+
 guidman24+
-guido9
 guidon11
 guidonian30gudoa35in+
 guidons24+
@@ -69296,7 +69196,6 @@ hardberry30hadbey40r+
 hardboard23hbo28ard
 hardboot27hardbt32o+
 hardcase27hrdcse32a+
-hardcore27hadcoe32r+
 harden11
 hardened20harn25de
 hardener20hadn25re
@@ -70538,7 +70437,6 @@ helix9
 helixes17hlixs22e
 helixin17helxn22i
 helizitic30helztc40i+
-hell7he12l
 helladian30hedin35la+
 helladic27headic32l+
 hellbender33hbndr38l43e+
@@ -71937,7 +71835,6 @@ hoagie11
 hoagies24+
 hoagy9
 hoaming24+
-hoar7
 hoard9
 hoarded17hoare22d
 hoarder17hoade22r
@@ -72083,7 +71980,6 @@ hoedowns27hedwns32o+
 hoeful11
 hoeing11
 hoelike17holik22e
-hoer7
 hoers9
 hoes7
 hoeshin17oesin22h
@@ -72466,7 +72362,6 @@ hommage17hoage22m
 homme9hoe14m
 hommock17hck22om
 hommocks20hcks25om
-homo7hm12o
 homobront30hmbrnt40o+
 homocerc20hmer25oc
 homocercy30hmery35oc+
@@ -72622,13 +72517,11 @@ honk7
 honked11
 honker11
 honkers24+
-honkey11
 honkeys24+
 honkie11
 honkies24+
 honking17hokig22n
 honks9
-honky9
 honkytonks33hyts38onk+
 honolulu20hn25olu
 honor9hnr14o
@@ -72720,7 +72613,6 @@ hookaroon23hkarn38o
 hookas11hkas16o
 hookcheck23e28hokc
 hooked11hked16o
-hooker11hker16o
 hookera17hkera22o
 hookers17hkers22o
 hookey11hkey16o
@@ -72896,7 +72788,6 @@ hordes11
 hordeum24+
 hording24+
 hordock17hrdck22o
-hore7
 horehoond23rend28h33o
 horehound30reund35ho+
 horim9
@@ -72962,7 +72853,6 @@ hornworm20hnwm25or
 hornworms30hnwms35or+
 hornwort20hnwt25or
 hornworts30hnwts35or+
-horny9
 horograph23gap28hor
 horokaka20hr25oka
 horol9hrl14o
@@ -73639,7 +73529,6 @@ humphrey27umprey32h+
 humphs11umps16h
 humpier24+
 humpies24+
-humping24+
 humpless27humple32s+
 humps9
 humpty11
@@ -75753,7 +75642,6 @@ incessancy33ieay38ncs+
 incessant30iceat35ns+
 incessantness42icat47e52n57s+
 incession23ceo28ins
-incest11
 incests17incet22s
 inch7
 inchain17cha22in
@@ -79339,7 +79227,6 @@ jackals17jckls22a
 jackaroo20jckr25ao
 jackaroos30jckrs35ao+
 jackash17jcksh22a
-jackass17jck22as
 jackasses23jcke28a33s
 jackassness36jckne41a51s+
 jackboot27jackbt32o+
@@ -79493,7 +79380,6 @@ jahvism24+
 jahvist24+
 jail7
 jailage17jilge22a
-jailbait20jlbt25ai
 jailbird27jalbrd32i+
 jaildom24+
 jailed11
@@ -80245,7 +80131,6 @@ jiffies17jes22if
 jiffle11jile16f
 jiffs9jis14f
 jiffy9jiy14f
-jigaboo17jigab22o
 jigaboos27jigabs32o+
 jigamaree30jigmr35ae+
 jigged11jied16g
@@ -80393,7 +80278,6 @@ jirgah11
 jiri7jr12i
 jirkinet27jrknet32i+
 jisheng24+
-jism7
 jisms9jim14s
 jissom11jiom16s
 jiti7jt12i
@@ -82578,7 +82462,6 @@ kiho7
 kikar9iar14k
 kikatsik20ats25i30k
 kikawaeo20iweo25ka
-kike7ie12k
 kikes9ies14k
 kiki12ki
 kikki14i19k
@@ -82818,7 +82701,6 @@ kinkled17inled22k
 kinkly11inly16k
 kinks9ins14k
 kinksbush30inbuh35ks+
-kinky9iny14k
 kinless17kinle22s
 kinnery17kiery22n
 kinnikinnick32c42k47in
@@ -83272,12 +83154,10 @@ knive9
 knived11
 knives11
 knivey11
-knob7
 knobbed17knoed22b
 knobber17knoer22b
 knobbier27knoier32b+
 knobbiness33koie38nbs+
-knobbing20koig25nb
 knobble17knole22b
 knobbled27knoled32b+
 knobbler27knoler32b+
@@ -84073,7 +83953,6 @@ kyathos24+
 kyats9
 kyaung11
 kybele11kybl16e
-kyke7ye12k
 kyklopes27ylopes32k+
 kyklops17ylops22k
 kyle7
@@ -84147,7 +84026,6 @@ labelling30abeing40l+
 labelloid30abeoid40l+
 labellum20abeum30l
 labels11abes16l
-labia9lbi14a
 labial11bi16la
 labialise23bse28lai
 labialism23bsm28lai
@@ -89815,7 +89693,6 @@ lusitania30lustn35ia+
 lusk7
 lusky9
 lusory11
-lust7
 lusted11
 luster11
 lustered27lustrd32e+
@@ -89830,7 +89707,6 @@ lustier24+
 lustiest20luie25st
 lustily17ustiy22l
 lustiness30lutine40s+
-lusting24+
 lustless20ute25l30s
 lustly11usty16l
 lustra11
@@ -95269,7 +95145,6 @@ mines9
 minette17min22et
 minever17minvr22e
 ming7
-minge9
 mingelen20migl25ne
 mingie11mnge16i
 mingier17mnger22i
@@ -98384,7 +98259,6 @@ muette11mu16et
 muezzin17muein22z
 muezzins27mueins32z+
 mufasal17mufsl22a
-muff7mu12f
 muffed11mued16f
 muffer11muer16f
 muffet11muet16f
@@ -100266,7 +100140,6 @@ nazaritic30nzrtc35ai+
 naze7
 nazeranna23zer33na
 nazerini20azer25ni
-nazi7
 nazified27nazfed32i+
 nazifies27nazfes32i+
 nazify11
@@ -100541,7 +100414,6 @@ negritian30egrta35ni+
 negritic27negrtc32i+
 negritize30ngrtz35ei+
 negrito24+
-negro9
 negrodom27negrdm32o+
 negroes17ngros22e
 negrofy24+
@@ -101333,11 +101205,9 @@ niggarded30niare35gd+
 niggarding26ard31ni36g
 niggards27niards32g+
 nigged11nied16g
-nigger11nier16g
 niggered20nird25ge
 niggerish30nersh35ig+
 niggerism30nersm35ig+
-niggers17niers22g
 niggertoe30nirto35ge+
 niggery17niery22g
 nigget11niet16g
@@ -101550,9 +101420,7 @@ nippitate23nae28ipt
 nippitato23nao28ipt
 nippitatum33naum38ipt+
 nippitaty23nay28ipt
-nipple11nile16p
 nippled17niled22p
-nipples17niles22p
 nippling20lg25nip
 nippon11io16np
 nipponese23ios28npe
@@ -103240,7 +103108,6 @@ nudation27udatio32n+
 nudd7nu12d
 nuddle11nule16d
 nuddy9nuy14d
-nude7
 nudely11
 nudeness20ud25nes
 nudenesses26ud31n36es
@@ -103265,7 +103132,6 @@ nudisms17nudim22s
 nudist11
 nudists17nudit22s
 nudities27nudtes32i+
-nudity11
 nudnick17udick22n
 nudnicks27udicks32n+
 nudnik11udik16n
@@ -103577,7 +103443,6 @@ nymphine27ymphie32n+
 nymphish27nympis32h+
 nymphlin27ymphli32n+
 nymphly17nmphl22y
-nympho11
 nymphon17ympho22n
 nymphos24+
 nymphs11
@@ -105879,8 +105744,6 @@ organum24+
 organy11
 organza17orgnz22a
 organzas27orgnzs32a+
-orgasm11
-orgasms17orgam22s
 orgeat11
 orgeats24+
 orgia9
@@ -105895,7 +105758,6 @@ orgue9
 orgueil24+
 orguil11
 orgulous20rgls25ou
-orgy7
 orgyia11
 orhamwood30rhamwd40o+
 orians11
@@ -109666,7 +109528,6 @@ pantheian30pthei35an+
 pantheon27patheo32n+
 panther24+
 pantie11
-panties24+
 pantile24+
 pantiling30patlg35ni+
 pantine17patie22n
@@ -109693,7 +109554,6 @@ pants9
 pantsuit27pansui32t+
 pantsuits30panui35ts+
 pantun11patu16n
-panty9
 panuelo24+
 panung11paug16n
 panure11
@@ -111118,7 +110978,6 @@ pawky9
 pawl7
 pawls9
 pawmark17pwmrk22a
-pawn7
 pawnable27pwnble32a+
 pawnage17pwnge22a
 pawnages27pwnges32a+
@@ -111377,7 +111236,6 @@ pecite11pcit16e
 peck7
 peckage17pckag22e
 pecked11pckd16e
-pecker11pckr16e
 peckers17pckrs22e
 pecket11pckt16e
 peckful24+
@@ -111520,7 +111378,6 @@ pedocal24+
 pedology27pedlgy32o+
 pedometer30pdomtr40e+
 pedomotor30pedmtr40o+
-pedophile30dohil35pe+
 pedosphere33doshr38p43e+
 pedrail24+
 pedregal27pdrgal32e+
@@ -111632,7 +111489,6 @@ pegbox11
 pegboxes27pgboxs32e+
 pegged11pd16eg
 pegger11pr16eg
-pegging17pein27g
 peggle11pl16eg
 peggy9pey14g
 pegh7
@@ -111921,7 +111777,6 @@ penide11pnid16e
 penile11pnil16e
 penillion23peo28nil
 penintime23ptm28eni
-penis9
 penises17pni22es
 penistone30pisto35en+
 penitence23pitc28n33e
@@ -114896,13 +114751,9 @@ pisolites30polte35is+
 pisolitic30psoltc40i+
 pisonia17psona22i
 pisote11
-piss7pi12s
 pissabed27piabed32s+
 pissant17piant22s
 pissants20piant30s
-pissed11pied16s
-pisses11pie21s
-pissing17png22is
 pissodes20piode30s
 pissoir17por22is
 pissoirs20por25i30s
@@ -115437,7 +115288,6 @@ playbill20paybi30l
 playbills30paybis40l+
 playbook27playbk32o+
 playbox24+
-playboy17plabo22y
 playboys27plabos32y+
 playday17pld22ay
 playdays20plds25ay
@@ -116405,7 +116255,6 @@ pollists20poit25ls
 polliwig20powg25li
 polliwog20piwg25ol
 polliwogs30piwgs35ol+
-pollock17pck22ol
 pollocks20pcks25ol
 polloi11pi16ol
 polls9pos14l
@@ -116819,7 +116668,6 @@ poodledom23plem28d33o
 poodler17pdler22o
 poodles17pdles22o
 poods9pds14o
-poof7pf12o
 pooftah17pftah22o
 poogye11pgye16o
 pooh7ph12o
@@ -116847,7 +116695,6 @@ pools9pls14o
 poolside27plside32o+
 poolwort20plwrt30o
 pooly9ply14o
-poon7pn12o
 poonac11pnac16o
 poonah11pnah16o
 poonce11pnce16o
@@ -116856,7 +116703,6 @@ poongee17png22oe
 poonghee20pngh25oe
 poonghie27pnghie32o+
 poons9pns14o
-poop12po
 pooped11ed16po
 poophyte20hyte25po
 poophytic30hytic35po+
@@ -117055,12 +116901,9 @@ porks9
 porkwood20prkwd30o
 porkwoods30prkwds40o+
 porky9
-porn7
-porno9prn14o
 pornocracy33pnay38orc+
 pornocrat30pncat35or+
 pornograph33ngah38por+
-pornos11prns16o
 porns9
 porodine27prdine32o+
 porodite27prdite32o+
@@ -118996,7 +118839,6 @@ prich9
 pricier17pce22ri
 priciest27prcest32i+
 pricing17prcng22i
-prick9
 pricked24+
 pricker17picke22r
 prickers27pickes32r+
@@ -119007,7 +118849,6 @@ prickish27prcksh32i+
 prickle24+
 pricklier30pckle35ri+
 prickly24+
-pricks11
 prickspur30icksu35pr+
 pricky11
 pricy9
@@ -119597,7 +119438,6 @@ promptly27romtly32p+
 prompts17romts22p
 prompture30omtue35pr+
 proms9
-pron7
 pronaoi17prnai22o
 pronaos17prnas22o
 pronate24+
@@ -120440,7 +120280,6 @@ pubal9
 pubble11pule16b
 puberal24+
 puberty24+
-pubes9
 pubescence33pubsn38c43e+
 pubian11
 pubic9
@@ -120948,7 +120787,6 @@ punster24+
 punsters27punter32s+
 punstress30puntre40s+
 punt7
-punta9
 puntabout30pnabo35ut+
 puntal11
 punted11
@@ -121263,7 +121101,6 @@ puss7pu12s
 pusscat17pucat22s
 pusses11pue21s
 pussier17puier22s
-pussies17puie27s
 pussiest20puiet30s
 pussiness23puine38s
 pussley17puley22s
@@ -121271,7 +121108,6 @@ pussleys20puley30s
 pusslies20pulie30s
 pusslike27pulike32s+
 pussly11puly16s
-pussy9puy14s
 pussycat27puycat32s+
 pussycats30puycat40s+
 pussyfoot30puyft35so+
@@ -122143,7 +121979,6 @@ quilted24+
 quilter24+
 quilting27qultng32i+
 quilts11
-quim7
 quimbaya27quimby32a+
 quimper24+
 quin7
@@ -123331,7 +123166,6 @@ rapacity27rpcity32a+
 rapakivi20rpkv25ai
 rapallo17rpo22al
 rapanea17rpne27a
-rape7
 raped9
 rapeful24+
 rapely11
@@ -123371,9 +123205,7 @@ rapillo17rapio22l
 rapine11
 rapiner17apine22r
 rapines24+
-raping11
 rapinic17rapnc22i
-rapist11
 rapists17rapit22s
 raploch24+
 raport11apot16r
@@ -124905,7 +124737,6 @@ rectotomy30recmy35to+
 rectress20ct25res
 rectrices23tis28rec
 rectrix17ectix22r
-rectum11
 rectums24+
 rectus11
 recubate27rcubat32e+
@@ -128315,7 +128146,6 @@ retanning30retaig40n+
 retape11rtap16e
 retaped17rtapd22e
 retar9eta14r
-retard11etad16r
 retardance33tdnc38rea+
 retardant23edn28rta
 retardants33edns38rta+
@@ -129724,7 +129554,6 @@ rimmaking30rakng35im+
 rimmed11ried16m
 rimmer11ie16rm
 rimmers17ies22rm
-rimming17rng22im
 rimose11
 rimosities33rmote38s43i+
 rimosity27rmosty32i+
@@ -132088,9 +131917,7 @@ sadie9
 sadiron24+
 sadirons27adiron32s+
 sadis9adi14s
-sadism11adim16s
 sadisms17adim27s
-sadist11adit16s
 sadistic20adtc25si
 sadists17adit27s
 sadite11
@@ -134209,7 +134036,6 @@ scarves17carve22s
 scary9
 scase9cae14s
 scasely17caely22s
-scat7
 scatback20stbk25ca
 scatbacks23tbk28sca
 scatch11sath16c
@@ -134610,7 +134436,6 @@ scissorbird36cobd41ir46s+
 scissored30ciored40s+
 scissorer23cioe28r33s
 scissoria23cora28i33s
-scissoring33corng38i43s+
 scissors20cior35s
 scissorsbird39cobd44ir54s+
 scissura20ciura30s
@@ -135157,7 +134982,6 @@ scrota11
 scrotal24+
 scrotitis23cro28sti
 scrotta17scroa22t
-scrotum24+
 scrotums27crotum32s+
 scrouge24+
 scrouger27scouge32r+
@@ -136244,7 +136068,6 @@ semel9sml14e
 sememe11s16m21e
 sememes22sm27e
 sememic17sic22em
-semen9smn14e
 semence17smnc27e
 semencinae33smcia38n43e+
 semens11mn16se
@@ -137450,7 +137273,6 @@ sexuale17sxual22e
 sexually27sexuay32l+
 sexuous17exo22su
 sexupara27sexupr32a+
-sexy7
 seybertite33sybri38t43e+
 seymeria27symria32e+
 seymour24+
@@ -137552,7 +137374,6 @@ shafts11haft16s
 shaftsman30hftmn35sa+
 shaftway27shftwy32a+
 shafty11
-shag7
 shaganappi33shgni38p43a+
 shagbag17shb22ag
 shagbark27shgbrk32a+
@@ -137563,7 +137384,6 @@ shaggier27shaier32g+
 shaggiest30haiet35sg+
 shaggily27shaily32g+
 shagginess33haine38g43s+
-shagging20shain30g
 shaggy11shay16g
 shagia11shgi16a
 shaglet24+
@@ -138534,23 +138354,15 @@ shishya17iya22sh
 shisn9hin14s
 shist9hit14s
 shists11hit21s
-shit7
 shita9
-shithead27sitead32h+
-shitheel20sitl25he
 shither17siter22h
-shits9hit14s
 shittah17sia22ht
 shittahs20ia25sht
-shitted17shied22t
 shitten17shien22t
 shittier20sher25it
-shittiest23he28si33t
 shittim17shm22it
 shittims20hm25sit
-shitting20shng25it
 shittle17shile22t
-shitty11shiy16t
 shiv7
 shiva9
 shivah11siva16h
@@ -140570,7 +140382,6 @@ skeered17skrd27e
 skeery11skry16e
 skees9k14se
 skeesicks23ic28ke33s
-skeet9skt14e
 skeeter17sktr27e
 skeeters20ktr25s30e
 skeets11kt16se
@@ -141804,12 +141615,10 @@ slushiness33luhine48s+
 slushing27luhing32s+
 slushpit27luhpit32s+
 slushy11luhy16s
-slut7
 slutch11
 slutchy24+
 sluther24+
 sluthood27sluthd32o+
-sluts9lut14s
 slutted17slued22t
 slutter17sluer22t
 sluttered30slurd35te+
@@ -141940,7 +141749,6 @@ smeeks11mk16se
 smeeky11smky16e
 smeer9smr14e
 smeeth11smth16e
-smegma11sega16m
 smegmas17ega22sm
 smell9sme14l
 smellable23smab28e33l
@@ -142176,7 +141984,6 @@ smurry11smuy16r
 smurtle24+
 smuse9mue14s
 smush9muh14s
-smut7
 smutch11
 smutches27mutche32s+
 smutchy24+
@@ -142325,7 +142132,6 @@ snashes17nahe27s
 snast9nat14s
 snaste11nate16s
 snasty11naty16s
-snatch11
 snatches27natche32s+
 snatchy24+
 snath9
@@ -143001,8 +142807,6 @@ sodomist20dmit25so
 sodomite27sdmite32o+
 sodomites30dmite35so+
 sodomitic30sdmtc35oi+
-sodomize27sdmize32o+
-sodomy11sdmy16o
 sods7od12s
 sodwork17sdwrk22o
 sody7
@@ -144739,7 +144543,6 @@ sphinxine30sphxe35in+
 sphygmus27phygmu32s+
 sphyrna24+
 spial9
-spic7
 spica9
 spicae11
 spical11
@@ -144767,7 +144570,6 @@ spicilege30spclg35ie+
 spicily17spcly22i
 spiciness23pcne28i33s
 spicing17spcng22i
-spick9
 spicket24+
 spickle24+
 spicks11pick16s
@@ -145613,7 +145415,6 @@ spun7
 spunch11
 spung9
 spunge11
-spunk9
 spunked24+
 spunkie24+
 spunkies27punkie32s+
@@ -147798,7 +147599,6 @@ stranner20stae25rn
 strany11
 strap9
 strapless30traple40s+
-strappado30strdo35ap+
 strappan20strn25ap
 strapped27straed32p+
 strapper20stae25rp
@@ -149251,7 +149051,6 @@ suchnesses26uchn31e41s
 suchos11ucho16s
 suchwise27uchwie32s+
 suci7
-suck7
 suckabob27suckao32b+
 suckage24+
 sucked11
@@ -149271,7 +149070,6 @@ suckler24+
 sucklers27uckler32s+
 suckles17uckle22s
 suckless20uckle30s
-sucks9uck14s
 suclat11
 sucrase17ucrae22s
 sucrases20ucrae30s
@@ -150597,7 +150395,6 @@ swashwork30ahork35sw+
 swashy11wahy16s
 swastica20wtic25sa
 swasticas23wtic28a33s
-swastika20wtik25sa
 swastikas23wtik28a33s
 swat7
 swatch11
@@ -150840,7 +150637,6 @@ swinge11
 swinged24+
 swingeing23swe28ing
 swingel24+
-swinger24+
 swingers27winger32s+
 swinges17winge22s
 swingier27swnger32i+
@@ -154673,7 +154469,6 @@ testees22ts27e
 tester11sr16te
 testers17r22tes
 testes16tes
-testicle20sicl25te
 testicles23icl28tes
 testier17sir22te
 testiere20sir25t30e
@@ -155733,7 +155528,6 @@ threepenny33thrpy38n43e+
 threeps17thrps22e
 threes11thrs16e
 threescore33thsco38r43e+
-threesome30thrsom40e+
 threesomes33throm38s43e+
 threip11
 threne11thrn16e
@@ -156945,7 +156739,6 @@ titrators23iaos28r33t
 titre9ire14t
 titres11ires16t
 titrimetric29mec34r39ti
-tits7is12t
 titter11ier21t
 tittered20ird25e30t
 titterel20irl25e30t
@@ -156955,7 +156748,6 @@ tittering23erng28i33t
 titters17iers27t
 tittery17iery27t
 tittie11e16i21t
-titties17es22i27t
 tittivate23vae28i38t
 tittle11ile21t
 tittlebat23ileba38t
@@ -156970,7 +156762,6 @@ tittupping26ung31ip36t
 tittuppy20iuy25p30t
 tittups17iups27t
 tittupy17iupy27t
-titty9iy19t
 titubant20iuban30t
 titubate20iubae30t
 titulado27iulado32t+
@@ -157737,7 +157528,6 @@ topkick17topic22k
 topkicks27topics32k+
 topknot17pkn22to
 topknots20pkns25to
-topless17tople22s
 toplessness36topln41e51s+
 toplike24+
 topline24+
@@ -158070,7 +157860,6 @@ tosk7
 toskish17tokih22s
 toss7to12s
 tossed11toed16s
-tosser11toer16s
 tossers17toer27s
 tosses11toe21s
 tossily17toily22s
@@ -160893,7 +160682,6 @@ turcism24+
 turcize24+
 turco9
 turcois24+
-turd7
 turdetan27urdean32t+
 turdidae27turiae32d+
 turdine24+
@@ -161094,7 +160882,6 @@ tushie11
 tushies17tuhie22s
 tushing24+
 tushs9tuh14s
-tushy9
 tusk7
 tuskar11
 tusked11
@@ -161257,7 +161044,6 @@ twarly11
 twas7
 twasome24+
 twasomes27twaome32s+
-twat7wa12t
 twatchel27wachel32t+
 twats9was14t
 twattle17wale27t
@@ -161397,7 +161183,6 @@ twinight20wngh25ti
 twining17twg22in
 twiningly30twgly35in+
 twinism17twnsm22i
-twink9
 twinkle24+
 twinkling30twklg35in+
 twinkly24+
@@ -167892,7 +167677,6 @@ vagi7
 vagient24+
 vagile11
 vagility27vaglty32i+
-vagina11vgin16a
 vaginae17vgine22a
 vaginal17vginl22a
 vaginally30vginy35al+
@@ -169346,7 +169130,6 @@ vibrant24+
 vibrate24+
 vibrative30brate35vi+
 vibrato24+
-vibrator27vibato32r+
 vibrio11vbro16i
 vibrioid20vbrod30i
 vibrion17vbron22i
@@ -170506,7 +170289,6 @@ voyager24+
 voyages24+
 voyaging27voyain32g+
 voyance24+
-voyeur11
 voyeurs24+
 voyeuse17voyus22e
 voyeuses20voyu25es
@@ -170567,7 +170349,6 @@ vulture17vltre22u
 vultures27vltres32u+
 vulturn17vltrn22u
 vulturous30vltros40u+
-vulva9ula14v
 vulvae11ulae16v
 vulval11ua16vl
 vulvar11ular16v
@@ -171097,7 +170878,6 @@ waneless20wanl25es
 wanely11
 wanes9
 waney9
-wang7
 wanga9wng14a
 wangala17wngl27a
 wangan11wg16an
@@ -171127,13 +170907,10 @@ wanigans20wigs25an
 waning11waig16n
 wanion11waio16n
 wanions17waios22n
-wank7
 wankapin20wkpi25an
 wankel11
-wanker11
 wankle11
 wankly11
-wanky9
 wanlas11wnls16a
 wanle9
 wanly9
@@ -172410,7 +172187,6 @@ westwards30etard35ws+
 westwork27estork32w+
 westy9
 weta7
-wetback24+
 wetbird24+
 wetched17wtchd22e
 wetchet17wch22et
@@ -173084,7 +172860,6 @@ whoppers27whoers32p+
 whopping27whoing32p+
 whops9
 whorage24+
-whore9
 whored11
 whoredom27whredm32o+
 whorehouse33wrus38hoe+
@@ -173397,7 +173172,6 @@ williche20wche25il
 willie11we16il
 willied17wed22il
 willier17wer22il
-willies17wes22il
 willing17wng22il
 willinger30wnger35il+
 willingly23wngy28i33l
@@ -173423,7 +173197,6 @@ willowworm26irm31lo36w
 willowy17ioy22wl
 willpower30ipoer35wl+
 wills9wis14l
-willy9wiy14l
 willyard27wiyard32l+
 willyart27wiyart32l+
 willyer17wiyer22l
@@ -176687,7 +176460,6 @@ zoopery17zpery22o
 zoophaga20zphg25oa
 zoophagan30zphgn35oa+
 zoophile27zphile32o+
-zoophilia30zphla35oi+
 zoophilic30zphlc35oi+
 zoophily27zphily32o+
 zoophism27zphism32o+

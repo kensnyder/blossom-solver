@@ -8,6 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Blossom Solver</title>
+    <link rel="stylesheet" href="./css/forms.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,17 +20,7 @@
   <body>
     <h1>Blossom Solver</h1>
     <main>
-      <form id="InputForm">
-        <label>
-          <span>Enter the 6 petal letters</span>
-          <input name="petals" />
-        </label>
-        <label>
-          <span>Enter the center letter</span>
-          <input name="centerLetter" />
-        </label>
-        <button type="submit">Solve</button>
-      </form>
+      <div id="FormArea"></div>
       <div id="Output"></div>
     </main>
     <script src="./js/domUtils.mjs" type="module"></script>

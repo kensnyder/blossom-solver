@@ -1,7 +1,19 @@
+/* Browser Default Styles */
 body {
   font-family: Cairo, sans-serif;
   font-size: 17px;
 }
+table {
+  border-collapse: collapse;
+}
+table td,
+table th {
+  padding: 0.2em 0.7em;
+  border: 1px solid #004e8d;
+  text-align: left;
+  vertical-align: top;
+}
+/* Re-usable Styles */
 .word-plus-score {
   display: block;
   margin-bottom: 9px;
@@ -20,4 +32,32 @@ body {
 .word-item.pangram .word {
   border: 2px solid white;
   outline: 2px solid #ffb26f;
+}
+.word-item.pangram:first-child .word {
+  margin-top: 0.5em;
+}
+.petals-table th {
+  text-align: center;
+}
+.all-words {
+  padding: 0.25em 0.7em;
+  border: 1px solid #004e8d;
+  border-radius: 5px;
+}
+/* Widget Styles */
+#InputForm label {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 2px 0;
+}
+#InputForm .label-text {
+  width: 200px;
+}
+#InputForm input {
+  text-transform: uppercase;
+}
+#Output .petal,
+#Output .petal-column-label {
+  text-transform: uppercase;
 }

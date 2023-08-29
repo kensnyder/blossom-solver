@@ -6,7 +6,7 @@ async function main() {
   const start = +new Date();
   const compiled36k = fs.readFileSync('data/compiled-36k.txt', 'utf8');
   const destPath = '/Users/ksnyder/sandbox/merriam';
-  const largeWords = fs.readFileSync('data/9-letters.txt', 'utf8');
+  const largeWords = fs.readFileSync('data/8-letters.txt', 'utf8');
   const largeWordList = largeWords.trim().split('\n');
   let i = 0;
   let counts = {
@@ -30,10 +30,18 @@ async function main() {
       counts.in36k++;
       continue;
     }
-    const resp = await fetch(
-      `https://www.merriam-webster.com/dictionary/${word}`
-    );
-    if (resp.ok) {
+    let resp, errorMessage;
+    try {
+      resp = await fetch(`https://www.merriam-webster.com/dictionary/${word}`);
+    } catch (err) {
+      errorMessage = err.message;
+    }
+    if (/timeout|epipe/i.test(errorMessage) || resp?.status === 504) {
+      largeWordList.push(word);
+      console.log(`${idx} [${word}] Timeout - Will retry in 1 hour`);
+      await new Promise(resolve => setTimeout(resolve, 60 * 60 * 1000));
+      continue;
+    } else if (resp?.ok) {
       const html = await resp.text();
       const lines = [];
       extract(lines, html, /(<h1[^>]*>.+?<\/h1>)/s);
@@ -44,10 +52,9 @@ async function main() {
       fs.writeFileSync(`${destPath}/${word}.html`, extracted, 'utf8');
       console.log(`${idx} [${word}] Wrote ${destPath}/${word}.html`);
       counts.found++;
-    } else if (resp.status === 404) {
+    } else if (resp?.status === 404) {
       console.log(`${idx} [${word}] Not found`);
       fs.writeFileSync(`${destPath}/${word}.html`, '404\n\n', 'utf8');
-      counts.is404++;
     } else {
       console.log(
         `${idx} [${word}] Fetch error: ${resp.status} ${resp.statusText} **********************************`

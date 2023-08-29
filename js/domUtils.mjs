@@ -26,6 +26,10 @@ export function onClick(selector, fn) {
   qs(selector).addEventListener('click', fn);
 }
 
+export function onChange(selector, fn) {
+  qs(selector).addEventListener('input', fn);
+}
+
 export function mapJoin(array, mapper) {
   return array.map(mapper).join('');
 }

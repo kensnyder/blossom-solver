@@ -39,6 +39,8 @@ export default function runBot({
     return data;
   });
 
+  const allWords = expanded.filter(w => w.word.includes(inputCenterLetter));
+
   const best = {
     label,
     letters: inputLetters,
@@ -50,9 +52,9 @@ export default function runBot({
     averageScore: 0,
     elapsed: 0,
     wordsUsed: [],
-    allWords: expanded.map(w => ({ word: w.word, pangram: w.pangram })),
+    allWords: allWords.map(w => ({ word: w.word, pangram: w.pangram })),
     scoresByPetal: [],
-    wordCount: expanded.length,
+    wordCount: allWords.length,
   };
   const used = [];
   for (const letter of letters) {
@@ -60,7 +62,7 @@ export default function runBot({
       // center letter is not a petal
       continue;
     }
-    const sorted = expanded
+    const sorted = allWords
       .filter(data => data[letter])
       .sort((a, b) => b[letter] - a[letter]);
     let foundTop = 0;

@@ -4,10 +4,10 @@
   "description": "Solve Blossom puzzles",
   "sideEffects": false,
   "scripts": {},
-  "dependencies": {},
   "devDependencies": {
+    "prettier": "^3.0.2",
     "prettier-plugin-organize-imports": "^3.2.3",
-    "prettier": "^3.0.2"
+    "rot-13": "^1.0.0"
   },
   "engines": {
     "node": ">=18"
