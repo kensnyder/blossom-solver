@@ -2,12 +2,12 @@ import { mapJoin, onChange, onSubmit, setHtml } from './domUtils.mjs';
 import runBot from './runBot.mjs';
 
 const dictionaries = {};
-fetch('/data/compiled-level3.txt')
+fetch('data/compiled-level3.txt')
   .then(resp => resp.text())
   .then(text => (dictionaries.Expert = text))
   .catch(err => alert('Error downloading dictionary!\n\n' + err.message));
 
-fetch('/data/compiled-level2.txt')
+fetch('data/compiled-level2.txt')
   .then(resp => resp.text())
   .then(text => (dictionaries.Intermediate = text))
   .catch(err => alert('Error downloading dictionary!\n\n' + err.message));

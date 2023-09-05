@@ -2,6 +2,8 @@
 body {
   font-family: Cairo, sans-serif;
   font-size: 17px;
+  padding: 16px;
+  margin: 0;
 }
 table {
   border-collapse: collapse;
