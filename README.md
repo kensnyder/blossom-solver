@@ -90,6 +90,13 @@ in the Blossom game that are not in `data/full-dictionary.txt`. I manually added
 those words to `data/discovered-words.txt`. Those are included in the final
 uncompiled and compiled dictionaries.
 
+## Beyond the dictionary - which words go with which bonus petal letter?
+
+I used letter frequencies in each dictionary to order the alphabet from least
+common letter to most common letter. The bot uses that order to assign words
+to each bonus petal letter. It is a naive approach, but usually gets the
+maximum score or very close to it.
+
 ## Precompilation
 
 I've chosen to precompile the dictionaries to allow the solver to provide

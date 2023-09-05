@@ -30,7 +30,7 @@ button {
 }
 .word-item .word {
   display: inline-block;
-  background-color: #d5e3e8;
+  background-color: #d4f3fd;
   padding: 0 5px 2px 5px;
   border-radius: 5px;
 }
@@ -44,8 +44,13 @@ button {
 .petals-table th {
   text-align: center;
 }
+.petals-table td,
+.words-used,
 .all-words {
-  padding: 0.25em 0.7em;
+  line-height: 2;
+}
+.all-words {
+  padding: 0.8em;
   border: 1px solid #004e8d;
   border-radius: 5px;
 }
@@ -75,4 +80,24 @@ button {
 }
 #Output h2 {
   margin-top: 1em;
+}
+/* hint modes */
+.mode-hints-1 .words-used-row,
+.mode-hints-1 .petals-table,
+.mode-hints-1 .petals-table-heading,
+.mode-hints-1 .all-words,
+.mode-hints-1 .all-words-heading {
+  display: none;
+}
+.mode-hints-2 .word :not(:nth-child(1)) {
+  filter: blur(4px);
+}
+.mode-hints-2 .all-words,
+.mode-hints-2 .all-words-heading,
+.mode-hints-3 .all-words-heading,
+.mode-hints-3 .all-words {
+  display: none;
+}
+.mode-hints-3 .word :not(:nth-child(1)):not(:nth-child(2)) {
+  filter: blur(4px);
 }
