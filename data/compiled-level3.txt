@@ -76031,6 +76031,7 @@ phosphorism36rim41phos+
 phosphorograph45sga50r55pho+
 phosphoroscope45rce50hs55p60o+
 phosphorous29ru34phs39o
+phosphorouses42rue47ph52os+
 phosphors23r28phos
 phosphorus26ru31phos
 phosphoryl33sryl38pho+
@@ -78738,6 +78739,7 @@ possessiveness45poivn55e70s+
 possessives29poiv34e49s
 possessor23per28o38s
 possessoress32pr37oe57s
+possessoresses38pr43o48e68s
 possessoriness45prin50oe70s+
 possessors26per31o46s
 possessorship42erhi47po62s+
@@ -80945,6 +80947,7 @@ ptarmic24+
 ptarmica27ptrmic32a+
 pterergate26pga31tr36e
 pteric11
+pteridine30ptrdn35ei+
 pteridoid30ptero35id+
 pterin11
 pterins24+
@@ -85851,6 +85854,7 @@ repressive26piv31rs36e
 repressiveness45pivn50r60es+
 repressor23po28es33r
 repressure26pu31s36re
+repressures29pu39res
 reprice17pic22re
 repriced20picd25re
 reprices20pics25re
@@ -98264,6 +98268,7 @@ spherics27pheric32s+
 spherier20sphi25er
 spheriest30phrit35se+
 spherome27sphrom32e+
+spherophorus39eu44sphro+
 spherule27sphrul32e+
 spherules30phrul35se+
 sphery11

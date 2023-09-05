@@ -23,7 +23,10 @@ const scoreBySize = {
 };
 
 compile({
-  inputFile: 'data/full-dictionary.txt',
+  inputWords: [
+    ...loadWords('data/full-dictionary.txt'),
+    ...loadWords('data/discovered-words.txt'),
+  ],
   outputFile: 'data/uncompiled-level3.txt',
   compiledFile: 'data/compiled-level3.txt',
   shouldWriteNumberFiles: true,
@@ -39,17 +42,13 @@ compile({
   },
 });
 compile({
-  inputFile: 'data/wiktionary-100k.txt',
+  inputWords: loadWords('data/wiktionary-100k.txt'),
   outputFile: 'data/uncompiled-level2.txt',
   compiledFile: 'data/compiled-level2.txt',
   shouldWriteNumberFiles: false,
   filter: lines => {
-    const dictionaryText = fs.readFileSync(
-      'data/uncompiled-level3.txt',
-      'utf8'
-    );
-    const dictionaryWords = dictionaryText.trim().split(/[\r\n]+/);
-    return lines.filter(word => dictionaryWords.includes(word));
+    const level3Words = loadWords('data/uncompiled-level3.txt');
+    return lines.filter(word => level3Words.includes(word));
   },
 });
 
@@ -64,7 +63,7 @@ function loadWordsRot13(path) {
 }
 
 function compile({
-  inputFile,
+  inputWords,
   outputFile,
   compiledFile,
   filter,
@@ -72,12 +71,10 @@ function compile({
 }) {
   const start = +new Date();
   console.log(
-    `=====\nProcessing ${inputFile}. This may take 15 to 30 seconds.`
+    `=====\nProcessing ${inputWords.length} words. This may take 15 to 30 seconds.`
   );
 
-  const text = fs.readFileSync(inputFile, 'utf8').trim();
-  const allLines = text.split(/[\r\n]+/);
-  const wordLines = allLines.filter(line => line.match(/^[a-z]+$/));
+  const wordLines = inputWords.filter(line => line.match(/^[a-z]+$/));
   const words = [...new Set(wordLines)];
   console.log(`Found ${words.length} words`);
 
@@ -137,7 +134,7 @@ function compile({
   // output letter frequencies
   const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
   const letterCounts = {};
-  let buffer = text;
+  let buffer = inputWords.join('');
   let totalChars = buffer.length;
   for (const letter of alphabet) {
     buffer = buffer.replaceAll(letter, '');
