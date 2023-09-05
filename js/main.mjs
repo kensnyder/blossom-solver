@@ -82,17 +82,17 @@ function renderResult(inputLetters, inputCenterLetter, difficulty) {
           <td>${best.totalPossiblePangrams}</td>
         </tr>
         <tr>
+          <th>Total Pangrams Used</th>
+          <td>${best.pangramCount}</td>
+        </tr>        
+        <tr>
           <th>Total Words Found</th>
           <td>${best.wordCount}</td>
-        </tr>      
+        </tr>
         <tr>
           <th>Bot Score</th>
           <td>${best.totalScore}</td>
         </tr>
-        <tr>
-          <th>Total Pangrams Used</th>
-          <td>${best.pangramCount}</td>
-        </tr>  
         <tr>
           <th>Average Score Per Word</th>
           <td>${best.averageScore}</td>

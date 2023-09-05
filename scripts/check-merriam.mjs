@@ -4,9 +4,9 @@ main().then(console.log, console.error);
 
 async function main() {
   const start = +new Date();
-  const compiled36k = fs.readFileSync('data/compiled-36k.txt', 'utf8');
+  const compiled36k = ''; //fs.readFileSync('data/compiled-36k.txt', 'utf8');
   const destPath = '/Users/ksnyder/sandbox/merriam';
-  const largeWords = fs.readFileSync('data/8-letters.txt', 'utf8');
+  const largeWords = fs.readFileSync('data/uncompiled-wiktionary.txt', 'utf8');
   const largeWordList = largeWords.trim().split('\n');
   let i = 0;
   let counts = {
@@ -36,9 +36,14 @@ async function main() {
     } catch (err) {
       errorMessage = err.message;
     }
-    if (/timeout|epipe/i.test(errorMessage) || resp?.status === 504) {
+    if (
+      /timeout|epipe/i.test(errorMessage) ||
+      [504, 502].includes(resp?.status)
+    ) {
       largeWordList.push(word);
-      console.log(`${idx} [${word}] Timeout - Will retry in 1 hour`);
+      console.log(
+        `${idx} [${word}] Timeout - Will retry in 1 hour from ${new Date()}`
+      );
       await new Promise(resolve => setTimeout(resolve, 60 * 60 * 1000));
       continue;
     } else if (resp?.ok) {
