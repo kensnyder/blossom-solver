@@ -8,7 +8,7 @@ function main() {
   const inputCenterLetter = process.argv[3] || 's';
   const best188 = runBot({
     label: '188k-bot',
-    compiledDictionary: fs.readFileSync('data/compiled-188k.txt', 'utf8'),
+    compiledDictionary: fs.readFileSync('data/compiled-level3.txt', 'utf8'),
     inputLetters,
     inputCenterLetter,
     frequencyOrder: 'jqxzwkvfbyghmdpucltrsnoaie',
@@ -16,7 +16,7 @@ function main() {
   console.log(best188);
   const best36 = runBot({
     label: '36k-bot',
-    compiledDictionary: fs.readFileSync('data/compiled-36k.txt', 'utf8'),
+    compiledDictionary: fs.readFileSync('data/compiled-level2.txt', 'utf8'),
     inputLetters,
     inputCenterLetter,
     frequencyOrder: 'jqzxwkvfybphgmcudlotrsnaie',
