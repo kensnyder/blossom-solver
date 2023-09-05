@@ -25,21 +25,23 @@ function renderForm() {
     <form id="InputForm">
       <label>
         <span class="label-text">Enter the 6 petal letters</span>
-        <input type="text" name="petals" size="8" placeholder="" />
+        <input class="form-control" type="text" name="petals" size="8" placeholder="" />
       </label>
       <label>
         <span class="label-text">Enter the center letter</span>
-        <input type="text" name="center" size="2" placeholder="" />
+        <input class="form-control" type="text" name="center" size="2" placeholder="" />
       </label>
       <label>
         <span class="label-text">Select difficulty</span>
-        <select name="difficulty">
+        <select class="form-select" name="difficulty">
           <option value="Expert">Level 3 - Expert</option>
           <option value="Intermediate" selected="selected">Level 2 - Intermediate</option>
           <!--<option value="Beginner">Level 1 - Beginner</option>-->
         </select>
       </label>
-      <button type="submit">Solve</button>
+      <div class="button-area">
+      <button class="btn btn-primary" type="submit">Solve</button>
+      </div>
     </form>
   `);
   setHtml('#Output', '');
