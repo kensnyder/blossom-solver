@@ -110,6 +110,7 @@ acrothoracica
 acrotreta
 actaea
 actaeon
+acte
 actiniaria
 actinidiaceae
 actinistia
@@ -134,6 +135,7 @@ adelaide
 adelea
 adelges
 adelia
+adem
 aden
 adenanthera
 adephaga
@@ -380,6 +382,7 @@ allegheny
 allentiac
 allentiacan
 allhallows
+alli
 alliaceae
 alliaria
 allionia
@@ -405,6 +408,7 @@ alsinaceae
 alsine
 alsophila
 alstonia
+alta
 altaic
 altair
 altamira
@@ -433,11 +437,13 @@ ambon
 ambrose
 ameiurus
 ameiva
+amer
 america
 american
 americana
 amerind
 amerindian
+ames
 ametabola
 amex
 amharic
@@ -571,6 +577,7 @@ ankoli
 annam
 annamese
 annamite
+annan
 annapolis
 annapurna
 anne
@@ -633,6 +640,7 @@ antiarcha
 antiarchi
 antiaris
 antigone
+antigua
 antiguan
 antillean
 antilles
@@ -946,6 +954,7 @@ asterales
 asterella
 asteriidae
 asterozoa
+asti
 astor
 asturian
 astyanax
@@ -1064,6 +1073,7 @@ axonolipa
 axonophora
 axonopus
 axumite
+ayer
 aymara
 aymaran
 ayrshire
@@ -1178,6 +1188,7 @@ banat
 banbury
 bandaid
 bandar
+bandes
 banff
 bangash
 bangiaceae
@@ -1326,6 +1337,7 @@ berbers
 berean
 berengarian
 bergamo
+bergen
 bergman
 bering
 berkeley
@@ -1465,6 +1477,8 @@ bombyx
 bonaire
 bonasa
 bonellia
+bonheur
+bonis
 bonnaz
 bontok
 boolean
@@ -1477,6 +1491,7 @@ borana
 borani
 borassus
 borazon
+bordet
 boreas
 borg
 bornean
@@ -1504,6 +1519,7 @@ bostonian
 bostons
 boswell
 botaurus
+bothe
 bothnian
 bothnic
 bothrops
@@ -1517,6 +1533,7 @@ bowbells
 bowles
 boyer
 boyg
+boyle
 brabant
 brachycera
 brachyura
@@ -1545,6 +1562,7 @@ brassicaceae
 brauneria
 brazil
 brazilian
+brazos
 brecht
 bremia
 brent
@@ -1988,8 +2006,10 @@ cecil
 cecropia
 cedrela
 cedrus
+cela
 celastraceae
 celebes
+celle
 cellfalcicula
 cellucotton
 celsia
@@ -2035,6 +2055,7 @@ cestida
 cestrum
 cetacea
 cetraria
+cette
 cetus
 ceylon
 chablis
@@ -2300,6 +2321,7 @@ coccolobis
 coccomyces
 coccosteus
 coccyzus
+coche
 cochin
 cochins
 cocle
@@ -2349,6 +2371,7 @@ comanchean
 comandra
 comecrudo
 comices
+como
 comox
 comsat
 comsomol
@@ -2359,6 +2382,7 @@ comtist
 conant
 conchucu
 condalia
+conde
 confed
 confucian
 confucius
@@ -2488,6 +2512,7 @@ croydon
 crts
 crucibulum
 cruciferae
+cruz
 cryptocarya
 ctenoidei
 ctenostome
@@ -2603,6 +2628,7 @@ dahomey
 dakota
 dakotan
 dakotas
+dalen
 dali
 dallas
 dalradian
@@ -2624,6 +2650,7 @@ daniel
 danish
 danite
 dankali
+dans
 dansker
 dante
 dantean
@@ -2685,6 +2712,7 @@ deciduata
 decius
 deepfreeze
 deeping
+deere
 deeses
 deesis
 deguelia
@@ -2762,6 +2790,7 @@ diegueno
 dieri
 diervilla
 dietrichite
+diez
 digenea
 digitaria
 digitigrada
@@ -2864,6 +2893,7 @@ doppler
 doradidae
 dorcas
 dorcopsis
+dore
 dorian
 doric
 doricism
@@ -2911,6 +2941,7 @@ dubhe
 dublin
 duboisia
 ducula
+duda
 dudley
 duffy
 dukhobor
@@ -2928,6 +2959,7 @@ durango
 durani
 duranta
 durban
+durer
 dureresque
 durham
 durzada
@@ -3003,6 +3035,7 @@ egocerus
 egypt
 egyptology
 ehatisaht
+ehrlich
 eiffel
 eimer
 eimeria
@@ -3039,6 +3072,7 @@ elias
 elijah
 eliot
 elisha
+ellas
 elliott
 elohim
 elohimic
@@ -3064,6 +3098,7 @@ emilia
 emim
 emma
 emmanuel
+emme
 emmental
 emmy
 empetraceae
@@ -3158,11 +3193,13 @@ esox
 esquimau
 esselen
 esselenian
+essen
 essene
 essenian
 essenic
 essenism
 essex
+este
 esth
 esther
 estheria
@@ -3294,6 +3331,7 @@ faventine
 fayumic
 february
 fegatella
+fein
 felidae
 felis
 fellata
@@ -3312,6 +3350,7 @@ fezzan
 fianna
 fica
 ficaria
+fick
 fied
 fielding
 fierasferidae
@@ -3329,6 +3368,7 @@ filipinize
 filipino
 filix
 fillmore
+fingo
 finland
 finn
 finnic
@@ -3338,6 +3378,7 @@ fissipeda
 fissipedia
 fissirostres
 fittonia
+fiume
 flacian
 flagellaria
 flagellata
@@ -3362,6 +3403,7 @@ fomes
 fontaine
 fontainea
 foochow
+foote
 forfar
 formica
 formosan
@@ -3410,15 +3452,18 @@ friesian
 frigga
 frigidaire
 fringilla
+frio
 frisbee
 frisbees
 frisco
 frisian
 frisii
 friulian
+fromm
 fucaceae
 fucales
 fuegian
+fuertes
 fugara
 fugard
 fuirena
@@ -3508,6 +3553,7 @@ gamelin
 gammaridae
 gammarus
 gammexane
+gana
 ganda
 gandhara
 gandhi
@@ -3594,6 +3640,7 @@ gesan
 gesnera
 gesneraceae
 getae
+getan
 getic
 getsul
 geulah
@@ -3724,6 +3771,7 @@ goths
 gouda
 goudy
 gove
+gozo
 gpss
 gracilaria
 gradgrind
@@ -3735,9 +3783,11 @@ gramineae
 grammies
 grammy
 granada
+grandi
 grantia
 graphis
 grapsus
+grasse
 gratiola
 graustark
 gravigrada
@@ -3751,6 +3801,7 @@ greekish
 greekist
 greekling
 greeks
+greene
 greenland
 greenlander
 gregarina
@@ -3771,6 +3822,7 @@ grinnellia
 griqua
 grisons
 gromia
+groote
 grote
 grotian
 grubstreet
@@ -3851,6 +3903,7 @@ gypsying
 gyrophora
 habab
 habakkuk
+haber
 habiri
 habiru
 habsburg
@@ -3873,6 +3926,7 @@ haida
 hainai
 hainan
 hainanese
+haines
 haisla
 haithal
 haiti
@@ -3884,6 +3938,7 @@ halenia
 halifax
 haligonian
 halimeda
+halle
 hallel
 hallels
 halloween
@@ -3910,6 +3965,7 @@ hanna
 hannibal
 hannibalian
 hannibalic
+hanno
 hano
 hanoi
 hanover
@@ -3923,6 +3979,7 @@ haplomi
 harari
 haratin
 harding
+harer
 hariana
 harianas
 harlem
@@ -3933,6 +3990,7 @@ harris
 harrisia
 harrison
 harrovian
+harte
 hartford
 hartmannia
 hartogia
@@ -3971,6 +4029,7 @@ hays
 hayward
 hazara
 hdlc
+hearn
 hearst
 hebraean
 hebraic
@@ -3981,6 +4040,7 @@ hecate
 hechtia
 hecuba
 hedera
+heem
 hegelian
 hehe
 heinesque
@@ -4065,6 +4125,7 @@ hieracian
 hieracite
 hierochloe
 hieron
+hierro
 hilaria
 hillary
 hillel
@@ -4187,6 +4248,7 @@ hurrian
 hurst
 hussite
 hussitism
+hutten
 hutterites
 huttonian
 hyades
@@ -4317,6 +4379,7 @@ indianization
 indianize
 indic
 indies
+indio
 indochina
 indogaean
 indology
@@ -4357,6 +4420,7 @@ iranic
 iraq
 iraqi
 iraqian
+iras
 ireland
 irelander
 irena
@@ -4605,6 +4669,7 @@ june
 juneau
 juneberry
 junebud
+jung
 jungian
 juniata
 junius
@@ -4712,6 +4777,7 @@ keats
 keatsian
 kedushah
 keewatin
+keizer
 kekchi
 kell
 kelly
@@ -4791,6 +4857,7 @@ kizil
 kjeldahl
 klamath
 klan
+klang
 klanism
 klans
 klansman
@@ -4940,6 +5007,8 @@ lanao
 lanarkia
 lancelot
 landsmaal
+lange
+langer
 lango
 langshan
 langshans
@@ -4974,12 +5043,15 @@ larvacea
 larvalia
 lashkar
 lasius
+laski
 lastex
 latania
 latax
 lathraea
 latimer
+latina
 latinate
+latine
 latiner
 latinian
 latinic
@@ -5001,6 +5073,7 @@ laurus
 lavandula
 lavatera
 lavinia
+lawes
 lawrence
 lawson
 lawsonia
@@ -5024,6 +5097,7 @@ leersia
 legbar
 leguatia
 leicester
+leiden
 leipzig
 leith
 leitneria
@@ -5038,6 +5112,8 @@ lenape
 lenca
 lencan
 lendu
+lengua
+lenguas
 lenin
 leninism
 leninist
@@ -5072,6 +5148,7 @@ lesquerella
 lett
 lettic
 lettish
+letto
 leucaena
 leucetta
 leucifer
@@ -5105,6 +5182,7 @@ liliaceae
 liliales
 liliiflorae
 lilith
+lille
 lilliput
 lilliputian
 lima
@@ -5208,6 +5286,7 @@ louisiana
 louisianan
 louisianian
 louisville
+lourdes
 lowell
 lowes
 lowry
@@ -5309,6 +5388,7 @@ madagascar
 madeira
 madeiran
 madeiras
+madera
 madi
 madia
 madison
@@ -5386,6 +5466,7 @@ maliki
 malinke
 malinois
 malkite
+malle
 mallophaga
 mallotus
 malmaison
@@ -5411,6 +5492,7 @@ manatus
 manchu
 manchus
 mancunian
+manda
 mandaean
 mandaic
 mandalay
@@ -5431,10 +5513,12 @@ manitoba
 mann
 manobo
 manso
+manteca
 mantidae
 mantisia
 mantodea
 mantzu
+manu
 manx
 manxman
 manxwoman
@@ -5457,6 +5541,7 @@ marattia
 marattiaceae
 marcan
 marcgravia
+marche
 marcomanni
 marconi
 marcos
@@ -5470,6 +5555,7 @@ marianist
 marianna
 marianne
 marikina
+marin
 marinist
 marion
 marist
@@ -5573,6 +5659,7 @@ meany
 meath
 meccano
 mechlin
+medan
 medea
 medellin
 medicaid
@@ -5635,12 +5722,14 @@ menominee
 menshevism
 mentha
 menthaceae
+menton
 menura
 menurae
 menziesia
 merak
 meratia
 mercator
+merced
 mercian
 mercurochrome
 mergus
@@ -5654,6 +5743,7 @@ merosomata
 merostomata
 merozoa
 merrimack
+mers
 merton
 merula
 merulius
@@ -5698,6 +5788,7 @@ miaotze
 mias
 miastor
 micah
+mich
 michael
 michel
 michigan
@@ -5758,6 +5849,7 @@ minorcan
 minorite
 minos
 minot
+minuit
 minyadidae
 miocene
 miohippus
@@ -5823,6 +5915,7 @@ mohism
 moho
 mohock
 mohockism
+moine
 moirai
 molala
 molasse
@@ -5856,6 +5949,7 @@ monasa
 monaxonida
 monday
 mondays
+monet
 mongol
 mongolia
 mongolian
@@ -6048,6 +6142,7 @@ nabaloi
 nabataean
 nabatean
 nablus
+nader
 nagari
 nagasaki
 nahane
@@ -6064,6 +6159,7 @@ naias
 nairobi
 naja
 nama
+naman
 nambe
 nanaimo
 nancy
@@ -6358,6 +6454,7 @@ ocyroe
 odacidae
 odax
 oddfellow
+oder
 odessa
 odin
 odinic
@@ -6473,6 +6570,7 @@ oreodoxa
 oreortyx
 orestes
 oretic
+origen
 origenian
 origenic
 oriolidae
@@ -6739,7 +6837,9 @@ pavo
 pawnee
 pawnees
 paxillosa
+paya
 payagua
+paye
 pazend
 peabody
 pecora
@@ -6811,6 +6911,7 @@ perceval
 percheron
 percidae
 percy
+perdido
 perdix
 pereira
 pereskia
@@ -7089,6 +7190,7 @@ pommies
 pommy
 pomo
 pomona
+pompe
 pompeian
 pompeii
 pompey
@@ -7110,6 +7212,7 @@ porphyra
 porphyrio
 porpita
 porpitoid
+portes
 portia
 portugee
 portunus
@@ -7298,6 +7401,7 @@ rabbinitic
 rabelais
 rabin
 rachel
+racine
 racovian
 radicula
 ragnarok
@@ -7358,6 +7462,7 @@ rattus
 rauraci
 raurici
 ravensara
+reade
 reagan
 realtor
 reaumur
@@ -7373,6 +7478,7 @@ reheboth
 rehoboam
 rehoboth
 reid
+reines
 reit
 rejang
 reki
@@ -7428,6 +7534,7 @@ richard
 richardia
 richter
 ricinulei
+rico
 riemannian
 riesling
 riffian
@@ -7436,6 +7543,7 @@ rigel
 riksmaal
 riksmal
 ringatu
+rios
 ripuarian
 rissian
 rissoa
@@ -7542,6 +7650,7 @@ russelia
 russell
 russellite
 russene
+russes
 russia
 russian
 russianism
@@ -7597,6 +7706,7 @@ sahidic
 sahiwal
 sahiwals
 saho
+sais
 saite
 saitic
 saiva
@@ -7657,6 +7767,7 @@ samhain
 samhita
 samian
 samkhya
+samma
 samnani
 samnite
 samoa
@@ -7669,6 +7780,8 @@ samson
 samsonian
 samuel
 samvat
+sana
+sanaa
 sanctus
 sandawe
 sandemanian
@@ -7854,6 +7967,7 @@ selene
 seleucia
 seleucid
 seljuk
+selten
 selung
 semaeostomata
 semang
@@ -7875,6 +7989,7 @@ senegalese
 senijextee
 senlac
 senonian
+sens
 senufo
 seoul
 sepiidae
@@ -7952,6 +8067,7 @@ shannon
 shardana
 shari
 sharon
+sharpe
 sharra
 shasta
 shastan
@@ -8072,6 +8188,7 @@ silesian
 siletz
 silicea
 siliquaria
+silla
 sillago
 silpha
 silures
@@ -8100,6 +8217,7 @@ sinico
 sinitic
 sinkiuse
 sinningia
+sino
 sinopic
 siouan
 sioux
@@ -8187,6 +8305,7 @@ sogdian
 soho
 sokotri
 solanales
+soledad
 soleidae
 solenopsis
 sollya
@@ -8194,6 +8313,7 @@ solomon
 solomonian
 somali
 somalia
+somme
 sonchus
 songhai
 songish
@@ -8217,6 +8337,7 @@ sotadic
 sothiac
 sothic
 sotho
+souris
 southron
 southrons
 soyot
@@ -8361,6 +8482,7 @@ suku
 sula
 sulidae
 sulka
+suma
 sumatra
 sumatran
 sumdum
@@ -8485,6 +8607,7 @@ talishi
 tallahassee
 talles
 tallis
+tallys
 talmud
 talpa
 talpidae
@@ -8518,6 +8641,7 @@ tanite
 tanna
 tano
 tanoan
+tanta
 tantalean
 tantalus
 tantaluses
@@ -8622,6 +8746,7 @@ temin
 temne
 tempe
 templar
+tems
 tenebrae
 teneriffe
 tenggerese
@@ -8736,6 +8861,7 @@ thrinax
 thuban
 thuidium
 thule
+thun
 thunnus
 thurnia
 thurrock
@@ -8793,6 +8919,7 @@ tinguian
 tinne
 tionontati
 tiou
+tious
 tiphiidae
 tipularia
 tipura
@@ -8814,6 +8941,7 @@ tobias
 todd
 todea
 todidae
+todt
 todus
 tokay
 tokays
@@ -8844,6 +8972,7 @@ tonkin
 tonkinese
 tonna
 tonto
+tooke
 topeka
 tophet
 topinish
@@ -9144,6 +9273,7 @@ uzbek
 vaccaria
 vacciniaceae
 vagnera
+vais
 vaishnava
 vaishnavism
 vaisya
@@ -9213,6 +9343,7 @@ venezuelan
 venice
 venise
 venite
+ventura
 venusian
 venutian
 veps
@@ -9242,10 +9373,12 @@ vicara
 vichy
 vichyite
 vicia
+vida
 viddhal
 vidian
 vidua
 vienna
+vienne
 viennese
 vietminh
 vietnam
@@ -9274,6 +9407,7 @@ visayan
 vishnu
 vishnuism
 visigoth
+viso
 vitaceae
 vitallium
 vitis
@@ -9351,10 +9485,12 @@ weberian
 wedgwood
 wednesday
 wednesdays
+weil
 weimaraner
 weinmannia
 weismannian
 weismannism
+weiss
 wellerism
 wellsian
 welshery
@@ -9387,8 +9523,10 @@ whitney
 whitsun
 wicca
 wichita
+wien
 wikeno
 wilbur
+wilde
 wilkinson
 william
 williamite
@@ -9409,6 +9547,7 @@ wister
 withania
 witloofs
 witoto
+witte
 witten
 wiyot
 wobblies
@@ -9425,6 +9564,7 @@ woolwich
 woolworth
 wooster
 worcester
+worde
 woulfe
 woyaway
 wundtian

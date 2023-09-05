@@ -81,6 +81,7 @@ adamantinoma
 adamsite
 adamsites
 adducent
+adem
 adenase
 adenomyoma
 adenoses
@@ -866,6 +867,7 @@ diiodide
 diketone
 dineric
 diose
+dioses
 diosgenin
 diospyros
 diotic
@@ -891,6 +893,7 @@ divulsed
 docimasia
 dolorific
 dourine
+drager
 dromomania
 duboisia
 duction
@@ -1085,6 +1088,7 @@ fetichist
 fetometry
 fibrillary
 fibrose
+fick
 filaricidal
 filariform
 filicin
@@ -1134,6 +1138,7 @@ gamont
 ganglial
 ganglioma
 ganser
+ganz
 gargets
 gargety
 gastral
@@ -2037,6 +2042,7 @@ perirenal
 peritenon
 peritrich
 perleche
+perles
 permeant
 pernio
 peronei
@@ -2120,6 +2126,7 @@ polyopia
 polyporus
 polypous
 polysomy
+pompe
 pompholyx
 pontic
 poplitei
@@ -2372,6 +2379,7 @@ squame
 stabilate
 stader
 statampere
+statim
 stavesacre
 steapsin
 steapsins

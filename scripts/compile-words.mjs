@@ -104,6 +104,9 @@ function compile({
 
   // run passed filter
   const filtered = filter(sevenOrFewer);
+  console.log(
+    `Filter function eliminated ${sevenOrFewer.length - filtered.length} words`
+  );
   // write file containing words only
   fs.writeFileSync(outputFile, filtered.join('\n'), 'utf8');
 
