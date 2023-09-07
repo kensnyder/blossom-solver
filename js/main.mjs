@@ -1,6 +1,7 @@
 import { mapJoin, onChange, onSubmit, qs, setHtml } from './domUtils.mjs';
 import runBot from './runBot.mjs';
 
+// TODO: Indicate dictionary download progress in UI
 const dictionaries = {};
 fetch('data/compiled-level3.txt')
   .then(resp => resp.text())
@@ -16,6 +17,8 @@ const frequencies = {
   Expert: 'jqxzwkvfbyghmdpucltrsnoaie',
   Intermediate: 'jqzxwkvfybphgmcudlotrsnaie',
 };
+
+let isInitialLoad = true;
 
 renderForm();
 
@@ -54,12 +57,6 @@ function renderForm() {
       </div>
     </form>
   `);
-  if (qs('#Output').innerHTML === '') {
-    const query = new URLSearchParams(window.location.search);
-    for (const [key, value] of Object.entries(query)) {
-      qs(`#InputForm [name=${key}]`).value = value;
-    }
-  }
   const resubmit = evt => {
     if (qs('#Output').innerHTML === '') {
       return;
@@ -87,6 +84,13 @@ function renderForm() {
     evt.preventDefault();
     run(evt.target);
   });
+  if (isInitialLoad) {
+    isInitialLoad = false;
+    const query = new URLSearchParams(window.location.search);
+    for (const [key, value] of query) {
+      qs(`#InputForm [name=${key}]`).value = value;
+    }
+  }
 }
 
 function renderResult(

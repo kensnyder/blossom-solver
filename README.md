@@ -4,6 +4,10 @@ A solver for the [Blossom](https://www.merriam-webster.com/games/blossom-word-ga
 word game. The solver is for non-commercial education purposes only.
 All trandemarks belong to Merriam-Webster.
 
+## Try it
+
+[https://kensnyder.github.io/blossom-solver/](https://kensnyder.github.io/blossom-solver/)
+
 ## Motivation
 
 I love playing Blossom but always wonder how my score stacks up against the
@@ -20,8 +24,8 @@ Merriam-Webster does not specify what dictionary is used for the game. We only
 have some guidelines:
 
 1. No hyphenated words
-1. No swear words
-1. No proper nouns
+2. No swear words
+3. No proper nouns
 
 Additionally, due to the nature of the game, we have the following constraints:
 
@@ -71,10 +75,10 @@ of this repository.
 ### Level 2 (Intermediate)
 
 1. I started with the Wiktionary 100k, a 2005 compilation from Wiktionary.org.
-   That file is saved as data/wiktionary-100k.txt.
+   That file is saved as `data/wiktionary-100k.txt`.
 2. I removed all words with 4 or fewer letters and 7 or fewer distinct letters.
 3. I removed all words not present in the level 3 dictionary
-4. I saved the result to `data/uncompiled-level2.txt. That file contains 26k
+4. I saved the result to `data/uncompiled-level2.txt`. That file contains 26k
    words.
 
 ### Level 1 (Beginner)
@@ -88,14 +92,15 @@ After you complete a game, Blossom will show you all the words and pangrams
 that were possible. Looking at words on the list, I discovered some words that
 in the Blossom game that are not in `data/full-dictionary.txt`. I manually added
 those words to `data/discovered-words.txt`. Those are included in the final
-uncompiled and compiled dictionaries.
+uncompiled and compiled dictionaries. Similarly, words I found in our dictionary
+but not in Blossom are saved to `data/discovered-non-words.txt`.
 
 ## Beyond the dictionary - which words go with which bonus petal letter?
 
 I used letter frequencies in each dictionary to order the alphabet from least
 common letter to most common letter. The bot uses that order to assign words
-to each bonus petal letter. It is a naive approach, but usually gets the
-maximum score or very close to it.
+to each bonus petal letter. It is more naive than permutation or some
+mathematical algorithm, but usually gets the maximum score or very close to it.
 
 ## Precompilation
 
@@ -128,7 +133,3 @@ muster11
 # If the bonus petal is e, it is worth 32 points
 mustered27mustrd32e+
 ```
-
-## Use
-
-The solver is available on [GitHub Pages here](https://kensnyder.github.io/blossom-solver/).
