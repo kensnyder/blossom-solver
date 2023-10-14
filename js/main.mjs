@@ -104,6 +104,10 @@ function renderResult(
     inputCenterLetter,
     frequencyOrder: frequencies[difficulty],
   });
+  if (best.error) {
+    setHtml('#Output', `<h2>${best.error}</h2>`);
+    return;
+  }
   // prettier-ignore
   setHtml('#Output', `
     <div class="mode-${mode}">

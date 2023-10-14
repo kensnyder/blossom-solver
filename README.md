@@ -14,7 +14,7 @@ I love playing Blossom but always wonder how my score stacks up against the
 best possible score. This tool attempts to find a high score for a given puzzle.
 You can also use it in "Hints mode" before you complete the puzzle. It will
 give you hints including the number of possible pangrams, number of possible
-words, and high score.
+words, high score, and first letters of the top words.
 
 ## Dictionaries
 
@@ -26,6 +26,7 @@ have some guidelines:
 1. No hyphenated words
 2. No swear words
 3. No proper nouns
+4. No medical words
 
 Additionally, due to the nature of the game, we have the following constraints:
 
@@ -74,7 +75,7 @@ of this repository.
 
 ### Level 2 (Intermediate)
 
-1. I started with the Wiktionary 100k, a 2005 compilation from Wiktionary.org.
+1. I started with the "Wiktionary 100k", a 2005 compilation from Wiktionary.org.
    That file is saved as `data/wiktionary-100k.txt`.
 2. I removed all words with 4 or fewer letters and 7 or fewer distinct letters.
 3. I removed all words not present in the level 3 dictionary
@@ -98,8 +99,8 @@ but not in Blossom are saved to `data/discovered-non-words.txt`.
 ## Beyond the dictionary - which words go with which bonus petal letter?
 
 I used letter frequencies in each dictionary to order the alphabet from least
-common letter to most common letter. The bot uses that order to assign words
-to each bonus petal letter. It is more naive than permutation or some
+common letter to most common letter. The bot uses score then letter frequency
+to choose its final plays. It is more naive than permutation or some
 mathematical algorithm, but usually gets the maximum score or very close to it.
 
 ## Precompilation
@@ -116,10 +117,12 @@ muster11
 mustered27mustrd32e+
 ```
 
-1. Words start at a line break and continue until encountering a number
-2. A plus is added to the end of a word if it is a pangram
+1. Words start at a line break and continue until encountering a number.
+2. A plus is added to the end of the line if it is a pangram.
 3. If the word has multiple sections of letters/numbers, the sections indicate
    how many points each bonus petal letter would produce.
+
+Example breakdown:
 
 ```txt
 # mustard is a pangram worth 24 points regardless of which letter is the bonus petal
@@ -133,3 +136,7 @@ muster11
 # If the bonus petal is e, it is worth 32 points
 mustered27mustrd32e+
 ```
+
+# License
+
+ISC License (ISC)

@@ -7,14 +7,17 @@ export default function runBot({
 }) {
   const start = +new Date();
 
-  const sorted = inputLetters.split('').sort((a, b) => {
-    return frequencyOrder.indexOf(a) - frequencyOrder.indexOf(b);
-  });
-  const letters = sorted.join('');
+  const letters = inputLetters.split('');
 
   const matched = compiledDictionary.match(
     new RegExp(`^[${letters}]+[0-9].*$`, 'gm')
   );
+
+  if (!matched) {
+    return {
+      error: 'No words found',
+    };
+  }
 
   const expanded = matched.map(line => {
     let pangram = false;
@@ -56,7 +59,9 @@ export default function runBot({
     scoresByPetal: [],
     wordCount: allWords.length,
   };
-  const used = [];
+
+  const allScores = [];
+  const usedByPetal = {};
   for (const letter of letters) {
     if (letter === inputCenterLetter) {
       // center letter is not a petal
@@ -65,50 +70,66 @@ export default function runBot({
     const sorted = allWords
       .filter(data => data[letter])
       .sort((a, b) => b[letter] - a[letter]);
-    let foundTop = 0;
+    const words = sorted.map(item => ({
+      petal: letter,
+      word: item.word,
+      score: item[letter],
+      pangram: item.pangram,
+    }));
+    allScores.push(...words);
     best.scoresByPetal.push({
       petal: letter,
-      words: sorted.map(item => ({
-        word: item.word,
-        score: item[letter],
-        pangram: item.pangram,
-      })),
+      words,
     });
-    for (let i = 0; i < sorted.length; i++) {
-      if (used.includes(sorted[i].word)) {
-        // skip a word that was already used
-        continue;
-      }
-      if (!sorted[i].word.includes(inputCenterLetter)) {
-        // invalid word: does not contain center letter
-        continue;
-      }
-      // collect the word
-      best.wordsUsed.push({
-        word: sorted[i].word,
-        // length: sorted[i].word.length,
-        petal: letter,
-        score: sorted[i][letter],
-        pangram: sorted[i].pangram,
-      });
-      best.totalScore += sorted[i][letter];
-      if (sorted[i].pangram) {
-        best.pangramCount++;
-      }
-      // note that we used the word
-      used.push(sorted[i].word);
-      foundTop++;
-      if (foundTop === 2) {
-        // we already have two words for this petal
-        break;
-      }
+    usedByPetal[letter] = 0;
+  }
+
+  allScores.sort((a, b) => {
+    // sort by score descending and then by frequency order
+    return (
+      b.score - a.score || frequencyOrder.indexOf(a) - frequencyOrder.indexOf(b)
+    );
+  });
+  const used = [];
+  while (best.wordsUsed.length < 12) {
+    if (allScores.length === 0) {
+      // we don't even have 12 words total?
+      // those must be some bad letters
+      break;
+    }
+    const word = allScores.shift();
+    const letter = word.petal;
+    if (usedByPetal[letter] === 2) {
+      // already have two words for this petal
+      continue;
+    }
+    if (used.includes(word.word)) {
+      // skip a word that was already used
+      continue;
+    }
+    usedByPetal[letter]++;
+    used.push(word.word);
+    // collect the word
+    best.wordsUsed.push(word);
+    best.totalScore += word.score;
+    if (word.pangram) {
+      best.pangramCount++;
     }
   }
 
+  if (used.length === 0) {
+    return {
+      error: 'No words found',
+    };
+  }
+
+  // sort the used list back into the letter order the user entered
+  best.wordsUsed.sort((a, b) => {
+    return letters.indexOf(a.petal) - letters.indexOf(b.petal);
+  });
+
   best.averageScore = Math.floor(best.totalScore / best.wordsUsed.length);
   best.took = +new Date() - start;
-  // console.log('--------------------  scores by petal ---------------------');
-  // console.log(JSON.stringify(best.scoresByPetal, null, 2));
 
   return best;
 }

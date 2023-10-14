@@ -6,20 +6,20 @@ main();
 function main() {
   const inputLetters = process.argv[2] || 'majesty';
   const inputCenterLetter = process.argv[3] || 's';
-  const best188 = runBot({
-    label: '188k-bot',
+  const level3 = runBot({
+    label: 'Level 3 Bot',
     compiledDictionary: fs.readFileSync('data/compiled-level3.txt', 'utf8'),
     inputLetters,
     inputCenterLetter,
     frequencyOrder: 'jqxzwkvfbyghmdpucltrsnoaie',
   });
-  console.log(best188);
-  const best36 = runBot({
-    label: '36k-bot',
+  console.log(level3);
+  const level2 = runBot({
+    label: 'Level 2 Bot',
     compiledDictionary: fs.readFileSync('data/compiled-level2.txt', 'utf8'),
     inputLetters,
     inputCenterLetter,
     frequencyOrder: 'jqzxwkvfybphgmcudlotrsnaie',
   });
-  console.log(best36);
+  console.log(level2);
 }
