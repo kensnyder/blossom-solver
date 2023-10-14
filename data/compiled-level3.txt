@@ -13863,8 +13863,10 @@ brownier27bownie32r+
 browning27browig32n+
 brownly24+
 brownness30browe35ns+
+brownnesses36brow41ne46s+
 brownnose30brwse35on+
 brownnoser33bwse38ron+
+brownnosers36bwe41rons+
 brownout27brwnut32o+
 browns11
 browntop27brwntp32o+
@@ -22036,6 +22038,7 @@ conferee20confr30e
 conferees30confrs40e+
 conference26ofr31cn36e
 conferences36ofrs41cn46e+
+conferencier39ofi44cnr49e+
 conferred30confd35er+
 conferrence29of34cnr39e
 conferrer23conf28e33r
@@ -29542,6 +29545,7 @@ disinteress36dntr41ie46s+
 disinterest36dnr41iste+
 disinterested42nr47dist52e+
 disinterestedness54r59dint69se+
+disinterestednesses60r65dint80se+
 disinterred36snt41dier+
 disinters30dnter35is+
 disinvest30dnvet35is+
@@ -32842,6 +32846,7 @@ eisegeses23ig33s38e
 eisegesis23g28i33es
 eisteddfod33istfo38e43d+
 eisteddfods36itfo41es46d+
+eith7
 either11ithr16e
 ejacula17ejcul22a
 ejaculum27ejaclm32u+
@@ -48351,6 +48356,7 @@ highland27igland32h+
 highlife20glfe25hi
 highlight23lt28ig33h
 highlighted36lted41ig46h+
+highlighter36lter41ig46h+
 highlighting32ltn42hig
 highlights26lts31ig36h
 highline20glne25hi
@@ -62617,6 +62623,7 @@ mbalolo17mba22lo
 mbira9
 mbiras11
 mbori9
+mcintire27mcntre32i+
 mdnt7
 mdse7
 meach9
@@ -63692,6 +63699,7 @@ micky9
 mico7
 micra9
 micraner27micane32r+
+micrinite30mcrnte40i+
 micro9
 microbar27micoba32r+
 microbe24+
@@ -93926,6 +93934,7 @@ shott9sho14t
 shotted17shoed22t
 shotten17shoen22t
 shotting27shoing32t+
+shottings30hoing35st+
 shotts11ho16st
 shotty11shoy16t
 shou7
@@ -104702,6 +104711,7 @@ telia9
 telial11teia16l
 telic9
 telically30teicay40l+
+teliosori30telsr35io+
 telium11
 tell7te12l
 tellen11tn16el
@@ -105222,7 +105232,6 @@ tertian17erian22t
 tertians27erians32t+
 tertiaries26as31teri
 tertiary20eiay25tr
-tertii11er16ti
 tertium17erium22t
 tertius17erius22t
 tertrinal30einal35tr+
@@ -108081,6 +108090,7 @@ trapezate23rpz28tae
 trapeze17trapz22e
 trapezes27trapzs32e+
 trapezia27trpezi32a+
+trapezii27trapez32i+
 trapfall20trpf25al
 trapnest27rapnes32t+
 trapnests30rapne35ts+
@@ -108931,6 +108941,7 @@ trone9
 trones11
 troodont20rdn25t30o
 troolie17trlie22o
+troolies27trlies32o+
 troop9trp14o
 trooped17trped22o
 trooper17tpe22ro

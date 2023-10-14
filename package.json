@@ -3,7 +3,9 @@
   "private": true,
   "description": "Solve Blossom puzzles",
   "sideEffects": false,
-  "scripts": {},
+  "scripts": {
+    "build": "node ./scripts/compile-words.mjs"
+  },
   "devDependencies": {
     "prettier": "^3.0.2",
     "prettier-plugin-organize-imports": "^3.2.3",

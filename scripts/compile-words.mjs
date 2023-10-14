@@ -35,9 +35,10 @@ compile({
       ...loadWords('data/not-in-merriam.txt'),
       ...loadWords('data/medical-words.txt'),
       ...loadWords('data/proper-nouns.txt'),
+      ...loadWords('data/discovered-non-words.txt'),
       ...loadWordsRot13('data/swear-words.rot13.txt'),
     ];
-    console.log('# disallowed words:', disallowedWords.length);
+    console.log(`Removing words (medical, proper nouns or profanity)...`);
     return lines.filter(word => !disallowedWords.includes(word));
   },
 });
@@ -101,9 +102,7 @@ function compile({
 
   // run passed filter
   const filtered = filter(sevenOrFewer);
-  console.log(
-    `Filter function eliminated ${sevenOrFewer.length - filtered.length} words`
-  );
+  console.log(`${sevenOrFewer.length - filtered.length} were filtered out`);
   // write file containing words only
   fs.writeFileSync(outputFile, filtered.join('\n'), 'utf8');
 
