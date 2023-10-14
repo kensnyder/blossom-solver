@@ -5,7 +5,10 @@ import runBot from './runBot.mjs';
 const dictionaries = {};
 fetch('data/compiled-level3.txt')
   .then(resp => resp.text())
-  .then(text => (dictionaries.Expert = text))
+  .then(text => {
+    dictionaries.Expert = text;
+    console.log('got level 3 text!', text.slice(0, 200));
+  })
   .catch(err => alert('Error downloading dictionary!\n\n' + err.message));
 
 fetch('data/compiled-level2.txt')
