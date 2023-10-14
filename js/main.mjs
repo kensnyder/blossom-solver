@@ -5,10 +5,7 @@ import runBot from './runBot.mjs';
 const dictionaries = {};
 fetch('data/compiled-level3.txt')
   .then(resp => resp.text())
-  .then(text => {
-    dictionaries.Expert = text;
-    console.log('got level 3 text!', text.slice(0, 200));
-  })
+  .then(text => (dictionaries.Expert = text))
   .catch(err => alert('Error downloading dictionary!\n\n' + err.message));
 
 fetch('data/compiled-level2.txt')
@@ -68,16 +65,19 @@ function renderForm() {
   };
   const run = form => {
     const data = Object.fromEntries(new FormData(form));
-    const letters = new Set((data.petals + data.center).split(''));
+    data.petals = data.petals.toLowerCase().replace(/\s+/g, '');
+    data.center = data.center.toLowerCase().trim();
+    const allLetters = (data.petals + data.center).split('');
+    const letters = new Set(allLetters);
     if (letters.size !== 7) {
       alert('Please enter exactly 6 petal letters and 1 center letter');
       return;
     }
-    window.history.pushState({}, '', `?${new URLSearchParams(data)}`);
     if (!letters.has(data.center)) {
       alert('Please enter the center letter');
       return;
     }
+    window.history.pushState({}, '', `?${new URLSearchParams(data)}`);
     renderResult(Array.from(letters).join(''), data);
   };
   setHtml('#Output', '');
